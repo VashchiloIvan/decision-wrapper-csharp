@@ -228,6 +228,9 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_getMarks")]
   public static extern global::System.IntPtr EstimateVector_getMarks(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_setMarks")]
+  public static extern void EstimateVector_setMarks(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_ToString")]
   public static extern string EstimateVector_ToString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
@@ -246,8 +249,53 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_getEstimateVectorList")]
   public static extern global::System.IntPtr MathModel_getEstimateVectorList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_sumByCriteria")]
+  public static extern double MathModel_sumByCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_maxByCriteria")]
+  public static extern double MathModel_maxByCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_minByCriteria")]
+  public static extern double MathModel_minByCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_isValid")]
+  public static extern bool MathModel_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_isNormalized")]
+  public static extern bool MathModel_isNormalized(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_ToString")]
   public static extern string MathModel_ToString(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Unifier_getUnifiedMathModel")]
+  public static extern global::System.IntPtr Unifier_getUnifiedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Unifier")]
+  public static extern void delete_Unifier(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlternativeUnifier_getUnifiedMathModel")]
+  public static extern global::System.IntPtr AlternativeUnifier_getUnifiedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_AlternativeUnifier")]
+  public static extern global::System.IntPtr new_AlternativeUnifier();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_AlternativeUnifier")]
+  public static extern void delete_AlternativeUnifier(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Normalizer_getNormalizedMathModel")]
+  public static extern global::System.IntPtr Normalizer_getNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Normalizer")]
+  public static extern void delete_Normalizer(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxNormalizer_getNormalizedMathModel")]
+  public static extern global::System.IntPtr MinMaxNormalizer_getNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxNormalizer")]
+  public static extern global::System.IntPtr new_MinMaxNormalizer();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMaxNormalizer")]
+  public static extern void delete_MinMaxNormalizer(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Marks__SWIG_0")]
   public static extern global::System.IntPtr new_Marks__SWIG_0();
@@ -467,4 +515,10 @@ class libdesPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_EstimateVectors")]
   public static extern void delete_EstimateVectors(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlternativeUnifier_SWIGUpcast")]
+  public static extern global::System.IntPtr AlternativeUnifier_SWIGUpcast(global::System.IntPtr jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxNormalizer_SWIGUpcast")]
+  public static extern global::System.IntPtr MinMaxNormalizer_SWIGUpcast(global::System.IntPtr jarg1);
 }

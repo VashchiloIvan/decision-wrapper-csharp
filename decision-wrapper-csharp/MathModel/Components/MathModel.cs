@@ -74,6 +74,31 @@ public class MathModel : global::System.IDisposable {
     return ret;
   }
 
+  public double sumByCriteria(int criteriaNum) {
+    double ret = libdesPINVOKE.MathModel_sumByCriteria(swigCPtr, criteriaNum);
+    return ret;
+  }
+
+  public double maxByCriteria(int criteriaNum) {
+    double ret = libdesPINVOKE.MathModel_maxByCriteria(swigCPtr, criteriaNum);
+    return ret;
+  }
+
+  public double minByCriteria(int criteriaNum) {
+    double ret = libdesPINVOKE.MathModel_minByCriteria(swigCPtr, criteriaNum);
+    return ret;
+  }
+
+  public bool isValid() {
+    bool ret = libdesPINVOKE.MathModel_isValid(swigCPtr);
+    return ret;
+  }
+
+  public bool isNormalized() {
+    bool ret = libdesPINVOKE.MathModel_isNormalized(swigCPtr);
+    return ret;
+  }
+
   public string ToString() {
     string ret = libdesPINVOKE.MathModel_ToString(swigCPtr);
     return ret;

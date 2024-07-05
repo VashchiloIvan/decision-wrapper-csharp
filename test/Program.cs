@@ -7,7 +7,7 @@ namespace SWIGTest
         {
             MathModel mathModel = new MathModel(new Criterias()
                 {
-                    new Criteria("1", CriteriaType.MAXIMIZATION),
+                    new Criteria("1", CriteriaType.MINIMIZATION),
                     new Criteria("2", CriteriaType.MAXIMIZATION),
                     new Criteria("3", CriteriaType.MINIMIZATION),
                 }, new EstimateVectors()
@@ -18,7 +18,16 @@ namespace SWIGTest
                 });
             
             Console.WriteLine(mathModel.ToString());
-            Console.WriteLine(mathModel.ToString());
+
+            Console.WriteLine();
+            Normalizer normalizer = new MinMaxNormalizer();
+            var mm3 = normalizer.getNormalizedMathModel(mathModel);
+            Console.WriteLine(mm3.ToString());
+            
+            Console.WriteLine();
+            Unifier unifier = new AlternativeUnifier();
+            var mm2 = unifier.getUnifiedMathModel(mathModel);
+            Console.WriteLine(mm2.ToString());
         }
     }
 }

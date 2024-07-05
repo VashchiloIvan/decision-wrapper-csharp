@@ -9,20 +9,20 @@
 //------------------------------------------------------------------------------
 
 
-public class EstimateVector : global::System.IDisposable {
+public class Normalizer : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
   protected bool swigCMemOwn;
 
-  internal EstimateVector(global::System.IntPtr cPtr, bool cMemoryOwn) {
+  internal Normalizer(global::System.IntPtr cPtr, bool cMemoryOwn) {
     swigCMemOwn = cMemoryOwn;
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(EstimateVector obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(Normalizer obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(EstimateVector obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(Normalizer obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -35,7 +35,7 @@ public class EstimateVector : global::System.IDisposable {
     }
   }
 
-  ~EstimateVector() {
+  ~Normalizer() {
     Dispose(false);
   }
 
@@ -49,38 +49,16 @@ public class EstimateVector : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_EstimateVector(swigCPtr);
+          libdesPINVOKE.delete_Normalizer(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
     }
   }
 
-  public EstimateVector(string name, Marks marks) : this(libdesPINVOKE.new_EstimateVector__SWIG_0(name, Marks.getCPtr(marks)), true) {
+  public virtual MathModel getNormalizedMathModel(MathModel original) {
+    MathModel ret = new MathModel(libdesPINVOKE.Normalizer_getNormalizedMathModel(swigCPtr, MathModel.getCPtr(original)), true);
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public EstimateVector(EstimateVector other) : this(libdesPINVOKE.new_EstimateVector__SWIG_1(EstimateVector.getCPtr(other)), true) {
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public string getName() {
-    string ret = libdesPINVOKE.EstimateVector_getName(swigCPtr);
-    return ret;
-  }
-
-  public Marks getMarks() {
-    Marks ret = new Marks(libdesPINVOKE.EstimateVector_getMarks(swigCPtr), true);
-    return ret;
-  }
-
-  public void setMarks(Marks newMarks) {
-    libdesPINVOKE.EstimateVector_setMarks(swigCPtr, Marks.getCPtr(newMarks));
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public string ToString() {
-    string ret = libdesPINVOKE.EstimateVector_ToString(swigCPtr);
     return ret;
   }
 
