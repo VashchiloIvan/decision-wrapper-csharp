@@ -9,20 +9,18 @@
 //------------------------------------------------------------------------------
 
 
-public class Criteria : global::System.IDisposable {
+public class MultiCriteriaMethod : DecisionMakingMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
-  protected bool swigCMemOwn;
 
-  internal Criteria(global::System.IntPtr cPtr, bool cMemoryOwn) {
-    swigCMemOwn = cMemoryOwn;
+  internal MultiCriteriaMethod(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.MultiCriteriaMethod_SWIGUpcast(cPtr), cMemoryOwn) {
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(Criteria obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(MultiCriteriaMethod obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(Criteria obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(MultiCriteriaMethod obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -35,52 +33,36 @@ public class Criteria : global::System.IDisposable {
     }
   }
 
-  ~Criteria() {
-    Dispose(false);
-  }
-
-  public void Dispose() {
-    Dispose(true);
-    global::System.GC.SuppressFinalize(this);
-  }
-
-  protected virtual void Dispose(bool disposing) {
+  protected override void Dispose(bool disposing) {
     lock(this) {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_Criteria(swigCPtr);
+          libdesPINVOKE.delete_MultiCriteriaMethod(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
+      base.Dispose(disposing);
     }
   }
 
-  public Criteria(string name, CriteriaType type) : this(libdesPINVOKE.new_Criteria__SWIG_0(name, (int)type), true) {
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public Criteria(Criteria other) : this(libdesPINVOKE.new_Criteria__SWIG_1(Criteria.getCPtr(other)), true) {
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public string getName() {
-    string ret = libdesPINVOKE.Criteria_getName(swigCPtr);
+  public virtual MathModel getMathModel() {
+    MathModel ret = new MathModel(libdesPINVOKE.MultiCriteriaMethod_getMathModel(swigCPtr), true);
     return ret;
   }
 
-  public CriteriaType getType() {
-    CriteriaType ret = (CriteriaType)libdesPINVOKE.Criteria_getType(swigCPtr);
-    return ret;
-  }
-
-  public void setName(string name) {
-    libdesPINVOKE.Criteria_setName(swigCPtr, name);
+  public virtual void setMathModel(MathModel mathModel) {
+    libdesPINVOKE.MultiCriteriaMethod_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public void setType(CriteriaType type) {
-    libdesPINVOKE.Criteria_setType(swigCPtr, (int)type);
+  public virtual void setCriteriaRelation(CriteriaRelation relation) {
+    libdesPINVOKE.MultiCriteriaMethod_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
+  }
+
+  public virtual EstimateVector getBestEstimateVector() {
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.MultiCriteriaMethod_getBestEstimateVector(swigCPtr), true);
+    return ret;
   }
 
 }

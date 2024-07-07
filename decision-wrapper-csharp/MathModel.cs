@@ -56,11 +56,14 @@ public class MathModel : global::System.IDisposable {
     }
   }
 
-  public MathModel(Criterias criteriaList, EstimateVectors estimateVectorList) : this(libdesPINVOKE.new_MathModel__SWIG_0(Criterias.getCPtr(criteriaList), EstimateVectors.getCPtr(estimateVectorList)), true) {
+  public MathModel() : this(libdesPINVOKE.new_MathModel__SWIG_0(), true) {
+  }
+
+  public MathModel(Criterias criteriaList, EstimateVectors estimateVectorList) : this(libdesPINVOKE.new_MathModel__SWIG_1(Criterias.getCPtr(criteriaList), EstimateVectors.getCPtr(estimateVectorList)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public MathModel(MathModel other) : this(libdesPINVOKE.new_MathModel__SWIG_1(MathModel.getCPtr(other)), true) {
+  public MathModel(MathModel other) : this(libdesPINVOKE.new_MathModel__SWIG_2(MathModel.getCPtr(other)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
@@ -97,6 +100,10 @@ public class MathModel : global::System.IDisposable {
   public bool isNormalized() {
     bool ret = libdesPINVOKE.MathModel_isNormalized(swigCPtr);
     return ret;
+  }
+
+  public void deleteEstimateVector(int vectorNum) {
+    libdesPINVOKE.MathModel_deleteEstimateVector(swigCPtr, vectorNum);
   }
 
   public string ToString() {
