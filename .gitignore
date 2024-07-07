@@ -1,0 +1,6 @@
+.idea
+.git
+decision-wrapper-csharp/bin
+decision-wrapper-csharp/obj
+decision-wrapper-csharp.Tests/bin
+decision-wrapper-csharp.Tests/obj
