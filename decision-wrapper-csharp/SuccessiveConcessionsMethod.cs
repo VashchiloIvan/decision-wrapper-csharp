@@ -57,7 +57,7 @@ public class SuccessiveConcessionsMethod : MultiStepMethod {
     return ret;
   }
 
-  public SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
+  public override SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
     SolveStatus ret = new SolveStatus(libdesPINVOKE.SuccessiveConcessionsMethod_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(decisionMakingInfo)), true);
     return ret;
   }

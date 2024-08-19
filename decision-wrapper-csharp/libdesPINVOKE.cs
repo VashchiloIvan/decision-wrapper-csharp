@@ -579,6 +579,18 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SuccessiveConcessionsIntermediateData")]
   public static extern void delete_SuccessiveConcessionsIntermediateData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StrongAlternatives")]
+  public static extern global::System.IntPtr new_StrongAlternatives(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StrongAlternatives_getStrongAlternatives")]
+  public static extern global::System.IntPtr StrongAlternatives_getStrongAlternatives(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StrongAlternatives_toString")]
+  public static extern string StrongAlternatives_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_StrongAlternatives")]
+  public static extern void delete_StrongAlternatives(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_DecisionMakerInfo")]
   public static extern global::System.IntPtr new_DecisionMakerInfo();
 
@@ -753,6 +765,12 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsMethod_getBestEstimateVectorNum")]
   public static extern int SuccessiveConcessionsMethod_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_ElectreMethod__SWIG_0")]
+  public static extern global::System.IntPtr new_ElectreMethod__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_ElectreMethod__SWIG_1")]
+  public static extern global::System.IntPtr new_ElectreMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_ElectreMethod")]
   public static extern void delete_ElectreMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
@@ -774,8 +792,8 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_getMathModel")]
   public static extern global::System.IntPtr ElectreMethod_getMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_getBestEstimateVectorNum")]
-  public static extern int ElectreMethod_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_getBestEstimateVector")]
+  public static extern global::System.IntPtr ElectreMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Solver")]
   public static extern global::System.IntPtr new_Solver();
@@ -1502,6 +1520,9 @@ class libdesPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsIntermediateData_SWIGUpcast")]
   public static extern global::System.IntPtr SuccessiveConcessionsIntermediateData_SWIGUpcast(global::System.IntPtr jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StrongAlternatives_SWIGUpcast")]
+  public static extern global::System.IntPtr StrongAlternatives_SWIGUpcast(global::System.IntPtr jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CedeValueInfo_SWIGUpcast")]
   public static extern global::System.IntPtr CedeValueInfo_SWIGUpcast(global::System.IntPtr jarg1);

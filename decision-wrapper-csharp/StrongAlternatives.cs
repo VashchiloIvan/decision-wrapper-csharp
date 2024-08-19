@@ -9,18 +9,18 @@
 //------------------------------------------------------------------------------
 
 
-public class MultiStepMethod : MultiCriteriaMethod {
+public class StrongAlternatives : IntermediateMethodData {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
 
-  internal MultiStepMethod(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.MultiStepMethod_SWIGUpcast(cPtr), cMemoryOwn) {
+  internal StrongAlternatives(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.StrongAlternatives_SWIGUpcast(cPtr), cMemoryOwn) {
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(MultiStepMethod obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(StrongAlternatives obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(MultiStepMethod obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(StrongAlternatives obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -38,7 +38,7 @@ public class MultiStepMethod : MultiCriteriaMethod {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_MultiStepMethod(swigCPtr);
+          libdesPINVOKE.delete_StrongAlternatives(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -46,14 +46,17 @@ public class MultiStepMethod : MultiCriteriaMethod {
     }
   }
 
-  public virtual SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
-    SolveStatus ret = new SolveStatus(libdesPINVOKE.MultiStepMethod_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(decisionMakingInfo)), true);
+  public StrongAlternatives(IntList strongAlternatives) : this(libdesPINVOKE.new_StrongAlternatives(IntList.getCPtr(strongAlternatives)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
+  public IntList getStrongAlternatives() {
+    IntList ret = new IntList(libdesPINVOKE.StrongAlternatives_getStrongAlternatives(swigCPtr), true);
     return ret;
   }
 
-  public virtual IntermediateMethodData getIntermediateMethodData() {
-    global::System.IntPtr cPtr = libdesPINVOKE.MultiStepMethod_getIntermediateMethodData(swigCPtr);
-    IntermediateMethodData ret = (cPtr == global::System.IntPtr.Zero) ? null : new IntermediateMethodData(cPtr, false);
+  public override string toString() {
+    string ret = libdesPINVOKE.StrongAlternatives_toString(swigCPtr);
     return ret;
   }
 

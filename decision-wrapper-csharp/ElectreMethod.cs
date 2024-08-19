@@ -46,7 +46,14 @@ public class ElectreMethod : MultiStepMethod {
     }
   }
 
-  public SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
+  public ElectreMethod() : this(libdesPINVOKE.new_ElectreMethod__SWIG_0(), true) {
+  }
+
+  public ElectreMethod(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_ElectreMethod__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
+  public override SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
     SolveStatus ret = new SolveStatus(libdesPINVOKE.ElectreMethod_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(decisionMakingInfo)), true);
     return ret;
   }
@@ -76,8 +83,8 @@ public class ElectreMethod : MultiStepMethod {
     return ret;
   }
 
-  public int getBestEstimateVectorNum() {
-    int ret = libdesPINVOKE.ElectreMethod_getBestEstimateVectorNum(swigCPtr);
+  public override EstimateVector getBestEstimateVector() {
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.ElectreMethod_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
 
