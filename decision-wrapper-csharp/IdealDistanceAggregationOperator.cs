@@ -57,14 +57,17 @@ public class IdealDistanceAggregationOperator : AggregationOperator {
     return ret;
   }
 
-  public int getBestEstimateVectorId() {
-    int ret = libdesPINVOKE.IdealDistanceAggregationOperator_getBestEstimateVectorId(swigCPtr);
+  public override int getBestEstimateVectorNum() {
+    int ret = libdesPINVOKE.IdealDistanceAggregationOperator_getBestEstimateVectorNum(swigCPtr);
     return ret;
   }
 
   public override bool isNeedNormalizedMathModel() {
     bool ret = libdesPINVOKE.IdealDistanceAggregationOperator_isNeedNormalizedMathModel(swigCPtr);
     return ret;
+  }
+
+  public IdealDistanceAggregationOperator() : this(libdesPINVOKE.new_IdealDistanceAggregationOperator(), true) {
   }
 
 }

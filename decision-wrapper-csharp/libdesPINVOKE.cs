@@ -675,11 +675,14 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_getBestValue")]
   public static extern double IdealDistanceAggregationOperator_getBestValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_getBestEstimateVectorId")]
-  public static extern int IdealDistanceAggregationOperator_getBestEstimateVectorId(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_getBestEstimateVectorNum")]
+  public static extern int IdealDistanceAggregationOperator_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_isNeedNormalizedMathModel")]
   public static extern bool IdealDistanceAggregationOperator_isNeedNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IdealDistanceAggregationOperator")]
+  public static extern global::System.IntPtr new_IdealDistanceAggregationOperator();
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_IdealDistanceAggregationOperator")]
   public static extern void delete_IdealDistanceAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
@@ -690,14 +693,23 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_getBestValue")]
   public static extern double MultiplicativeAggregationOperator_getBestValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_getBestEstimateVectorId")]
-  public static extern int MultiplicativeAggregationOperator_getBestEstimateVectorId(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_getBestEstimateVectorNum")]
+  public static extern int MultiplicativeAggregationOperator_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_isNeedNormalizedMathModel")]
   public static extern bool MultiplicativeAggregationOperator_isNeedNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiplicativeAggregationOperator")]
+  public static extern global::System.IntPtr new_MultiplicativeAggregationOperator();
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiplicativeAggregationOperator")]
   public static extern void delete_MultiplicativeAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LexicographicOptimization__SWIG_0")]
+  public static extern global::System.IntPtr new_LexicographicOptimization__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LexicographicOptimization__SWIG_1")]
+  public static extern global::System.IntPtr new_LexicographicOptimization__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_LexicographicOptimization")]
   public static extern void delete_LexicographicOptimization(global::System.Runtime.InteropServices.HandleRef jarg1);
@@ -713,6 +725,21 @@ class libdesPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LexicographicOptimization_getMathModel")]
   public static extern global::System.IntPtr LexicographicOptimization_getMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LexicographicOptimization_getBestEstimateVector")]
+  public static extern global::System.IntPtr LexicographicOptimization_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_0")]
+  public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_1")]
+  public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_2")]
+  public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_3")]
+  public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_3(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriteriaAggregationMethod")]
   public static extern void delete_CriteriaAggregationMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
@@ -738,8 +765,8 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_getEstimateVectorWeight")]
   public static extern global::System.IntPtr CriteriaAggregationMethod_getEstimateVectorWeight(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_getBestEstimateVectorNum")]
-  public static extern int CriteriaAggregationMethod_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_getBestEstimateVector")]
+  public static extern global::System.IntPtr CriteriaAggregationMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SuccessiveConcessionsMethod")]
   public static extern void delete_SuccessiveConcessionsMethod(global::System.Runtime.InteropServices.HandleRef jarg1);

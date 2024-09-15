@@ -46,6 +46,20 @@ public class CriteriaAggregationMethod : OneStepMethod {
     }
   }
 
+  public CriteriaAggregationMethod(AggregationOperator aggregationOperator) : this(libdesPINVOKE.new_CriteriaAggregationMethod__SWIG_0(AggregationOperator.getCPtr(aggregationOperator)), true) {
+  }
+
+  public CriteriaAggregationMethod(AggregationOperator aggregationOperator, Normalizer normalizer) : this(libdesPINVOKE.new_CriteriaAggregationMethod__SWIG_1(AggregationOperator.getCPtr(aggregationOperator), Normalizer.getCPtr(normalizer)), true) {
+  }
+
+  public CriteriaAggregationMethod(MathModel mathModel, WeightCriteriaRelation relation, AggregationOperator aggregationOperator) : this(libdesPINVOKE.new_CriteriaAggregationMethod__SWIG_2(MathModel.getCPtr(mathModel), WeightCriteriaRelation.getCPtr(relation), AggregationOperator.getCPtr(aggregationOperator)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
+  public CriteriaAggregationMethod(MathModel mathModel, WeightCriteriaRelation relation, AggregationOperator aggregationOperator, Normalizer normalizer) : this(libdesPINVOKE.new_CriteriaAggregationMethod__SWIG_3(MathModel.getCPtr(mathModel), WeightCriteriaRelation.getCPtr(relation), AggregationOperator.getCPtr(aggregationOperator), Normalizer.getCPtr(normalizer)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
   public override MathModel getMathModel() {
     MathModel ret = new MathModel(libdesPINVOKE.CriteriaAggregationMethod_getMathModel(swigCPtr), true);
     return ret;
@@ -78,8 +92,8 @@ public class CriteriaAggregationMethod : OneStepMethod {
     return ret;
   }
 
-  public int getBestEstimateVectorNum() {
-    int ret = libdesPINVOKE.CriteriaAggregationMethod_getBestEstimateVectorNum(swigCPtr);
+  public override EstimateVector getBestEstimateVector() {
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.CriteriaAggregationMethod_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
 

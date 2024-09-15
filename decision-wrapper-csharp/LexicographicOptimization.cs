@@ -46,6 +46,13 @@ public class LexicographicOptimization : OneStepMethod {
     }
   }
 
+  public LexicographicOptimization() : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_0(), true) {
+  }
+
+  public LexicographicOptimization(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
   public override void setMathModel(MathModel mathModel) {
     libdesPINVOKE.LexicographicOptimization_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
@@ -62,6 +69,11 @@ public class LexicographicOptimization : OneStepMethod {
 
   public override MathModel getMathModel() {
     MathModel ret = new MathModel(libdesPINVOKE.LexicographicOptimization_getMathModel(swigCPtr), true);
+    return ret;
+  }
+
+  public override EstimateVector getBestEstimateVector() {
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.LexicographicOptimization_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
 

@@ -57,14 +57,17 @@ public class MultiplicativeAggregationOperator : AggregationOperator {
     return ret;
   }
 
-  public int getBestEstimateVectorId() {
-    int ret = libdesPINVOKE.MultiplicativeAggregationOperator_getBestEstimateVectorId(swigCPtr);
+  public override int getBestEstimateVectorNum() {
+    int ret = libdesPINVOKE.MultiplicativeAggregationOperator_getBestEstimateVectorNum(swigCPtr);
     return ret;
   }
 
   public override bool isNeedNormalizedMathModel() {
     bool ret = libdesPINVOKE.MultiplicativeAggregationOperator_isNeedNormalizedMathModel(swigCPtr);
     return ret;
+  }
+
+  public MultiplicativeAggregationOperator() : this(libdesPINVOKE.new_MultiplicativeAggregationOperator(), true) {
   }
 
 }
