@@ -64,8 +64,14 @@ public class MultiStepMultiCriteriaMethodSolver : MultiCriteriaMethodSolver {
     return ret;
   }
 
-  public void makeIteration(DecisionMakerInfo makerInfo) {
-    libdesPINVOKE.MultiStepMultiCriteriaMethodSolver_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(makerInfo));
+  public MultiMethodResult solve() {
+    MultiMethodResult ret = new MultiMethodResult(libdesPINVOKE.MultiStepMultiCriteriaMethodSolver_solve(swigCPtr), true);
+    return ret;
+  }
+
+  public MultiMethodResult makeIteration(DecisionMakerInfo makerInfo) {
+    MultiMethodResult ret = new MultiMethodResult(libdesPINVOKE.MultiStepMultiCriteriaMethodSolver_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(makerInfo)), true);
+    return ret;
   }
 
   public IntermediateMethodData getMethodData() {

@@ -53,6 +53,11 @@ public class ElectreMethod : MultiStepMethod {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
+  public override SolveStatus solve() {
+    SolveStatus ret = new SolveStatus(libdesPINVOKE.ElectreMethod_solve(swigCPtr), true);
+    return ret;
+  }
+
   public override SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
     SolveStatus ret = new SolveStatus(libdesPINVOKE.ElectreMethod_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(decisionMakingInfo)), true);
     return ret;
@@ -61,11 +66,6 @@ public class ElectreMethod : MultiStepMethod {
   public override IntermediateMethodData getIntermediateMethodData() {
     global::System.IntPtr cPtr = libdesPINVOKE.ElectreMethod_getIntermediateMethodData(swigCPtr);
     IntermediateMethodData ret = (cPtr == global::System.IntPtr.Zero) ? null : new IntermediateMethodData(cPtr, false);
-    return ret;
-  }
-
-  public override SolveStatus solve() {
-    SolveStatus ret = new SolveStatus(libdesPINVOKE.ElectreMethod_solve(swigCPtr), true);
     return ret;
   }
 
@@ -85,6 +85,15 @@ public class ElectreMethod : MultiStepMethod {
 
   public override EstimateVector getBestEstimateVector() {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.ElectreMethod_getBestEstimateVector(swigCPtr), true);
+    return ret;
+  }
+
+  public override void withSolveProcessLog() {
+    libdesPINVOKE.ElectreMethod_withSolveProcessLog(swigCPtr);
+  }
+
+  public override TaskProcess getProcess() {
+    TaskProcess ret = new TaskProcess(libdesPINVOKE.ElectreMethod_getProcess(swigCPtr), true);
     return ret;
   }
 

@@ -65,4 +65,13 @@ public class MultiCriteriaMethod : DecisionMakingMethod {
     return ret;
   }
 
+  public virtual void withSolveProcessLog() {
+    libdesPINVOKE.MultiCriteriaMethod_withSolveProcessLog(swigCPtr);
+  }
+
+  public virtual TaskProcess getProcess() {
+    TaskProcess ret = new TaskProcess(libdesPINVOKE.MultiCriteriaMethod_getProcess(swigCPtr), true);
+    return ret;
+  }
+
 }

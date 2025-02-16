@@ -9,18 +9,18 @@
 //------------------------------------------------------------------------------
 
 
-public class LexicographicOptimization : OneStepMethod {
+public class Smart : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
 
-  internal LexicographicOptimization(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.LexicographicOptimization_SWIGUpcast(cPtr), cMemoryOwn) {
+  internal Smart(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.Smart_SWIGUpcast(cPtr), cMemoryOwn) {
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(Smart obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(Smart obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -38,7 +38,7 @@ public class LexicographicOptimization : OneStepMethod {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_LexicographicOptimization(swigCPtr);
+          libdesPINVOKE.delete_Smart(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -46,43 +46,47 @@ public class LexicographicOptimization : OneStepMethod {
     }
   }
 
-  public LexicographicOptimization() : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_0(), true) {
+  public Smart() : this(libdesPINVOKE.new_Smart__SWIG_0(), true) {
   }
 
-  public LexicographicOptimization(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+  public Smart(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_Smart__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
   public override void setMathModel(MathModel mathModel) {
-    libdesPINVOKE.LexicographicOptimization_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
+    libdesPINVOKE.Smart_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
   public override void setCriteriaRelation(CriteriaRelation relation) {
-    libdesPINVOKE.LexicographicOptimization_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
+    libdesPINVOKE.Smart_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
   }
 
   public override SolveStatus solve() {
-    SolveStatus ret = new SolveStatus(libdesPINVOKE.LexicographicOptimization_solve(swigCPtr), true);
+    SolveStatus ret = new SolveStatus(libdesPINVOKE.Smart_solve(swigCPtr), true);
     return ret;
   }
 
   public override MathModel getMathModel() {
-    MathModel ret = new MathModel(libdesPINVOKE.LexicographicOptimization_getMathModel(swigCPtr), true);
+    MathModel ret = new MathModel(libdesPINVOKE.Smart_getMathModel(swigCPtr), true);
     return ret;
   }
 
+  public void setNormalizer(Normalizer normalizer) {
+    libdesPINVOKE.Smart_setNormalizer(swigCPtr, Normalizer.getCPtr(normalizer));
+  }
+
   public override EstimateVector getBestEstimateVector() {
-    EstimateVector ret = new EstimateVector(libdesPINVOKE.LexicographicOptimization_getBestEstimateVector(swigCPtr), true);
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.Smart_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
 
   public override void withSolveProcessLog() {
-    libdesPINVOKE.LexicographicOptimization_withSolveProcessLog(swigCPtr);
+    libdesPINVOKE.Smart_withSolveProcessLog(swigCPtr);
   }
 
   public override TaskProcess getProcess() {
-    TaskProcess ret = new TaskProcess(libdesPINVOKE.LexicographicOptimization_getProcess(swigCPtr), true);
+    TaskProcess ret = new TaskProcess(libdesPINVOKE.Smart_getProcess(swigCPtr), true);
     return ret;
   }
 

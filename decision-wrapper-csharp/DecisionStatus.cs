@@ -15,6 +15,6 @@ public enum DecisionStatus {
   Optimal,
   Feasible,
   Infeasible,
-  InvalidModel,
+  InvalidTaskModel,
   InvalidData
 }

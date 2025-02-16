@@ -9,20 +9,20 @@
 //------------------------------------------------------------------------------
 
 
-public class MethodResult : global::System.IDisposable {
+public class TaskStep : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
   protected bool swigCMemOwn;
 
-  internal MethodResult(global::System.IntPtr cPtr, bool cMemoryOwn) {
+  internal TaskStep(global::System.IntPtr cPtr, bool cMemoryOwn) {
     swigCMemOwn = cMemoryOwn;
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(MethodResult obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(TaskStep obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(MethodResult obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(TaskStep obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -35,7 +35,7 @@ public class MethodResult : global::System.IDisposable {
     }
   }
 
-  ~MethodResult() {
+  ~TaskStep() {
     Dispose(false);
   }
 
@@ -49,44 +49,49 @@ public class MethodResult : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_MethodResult(swigCPtr);
+          libdesPINVOKE.delete_TaskStep(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
     }
   }
 
-  public MethodResult() : this(libdesPINVOKE.new_MethodResult__SWIG_0(), true) {
-  }
-
-  public MethodResult(SolveStatus first, OneStepMethod second) : this(libdesPINVOKE.new_MethodResult__SWIG_1(SolveStatus.getCPtr(first), OneStepMethod.getCPtr(second)), true) {
+  public TaskStep(string type, string step) : this(libdesPINVOKE.new_TaskStep__SWIG_0(type, step), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public MethodResult(MethodResult other) : this(libdesPINVOKE.new_MethodResult__SWIG_2(MethodResult.getCPtr(other)), true) {
+  public TaskStep(string type, StringList row) : this(libdesPINVOKE.new_TaskStep__SWIG_1(type, StringList.getCPtr(row)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public SolveStatus first {
-    set {
-      libdesPINVOKE.MethodResult_first_set(swigCPtr, SolveStatus.getCPtr(value));
-    } 
-    get {
-      global::System.IntPtr cPtr = libdesPINVOKE.MethodResult_first_get(swigCPtr);
-      SolveStatus ret = (cPtr == global::System.IntPtr.Zero) ? null : new SolveStatus(cPtr, false);
-      return ret;
-    } 
+  public static TaskStep TextType(string step) {
+    global::System.IntPtr cPtr = libdesPINVOKE.TaskStep_TextType(step);
+    TaskStep ret = (cPtr == global::System.IntPtr.Zero) ? null : new TaskStep(cPtr, false);
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+    return ret;
   }
 
-  public OneStepMethod second {
-    set {
-      libdesPINVOKE.MethodResult_second_set(swigCPtr, OneStepMethod.getCPtr(value));
-    } 
-    get {
-      global::System.IntPtr cPtr = libdesPINVOKE.MethodResult_second_get(swigCPtr);
-      OneStepMethod ret = (cPtr == global::System.IntPtr.Zero) ? null : new OneStepMethod(cPtr, false);
-      return ret;
-    } 
+  public static TaskStep TablePartType(string type, StringList row) {
+    global::System.IntPtr cPtr = libdesPINVOKE.TaskStep_TablePartType(type, StringList.getCPtr(row));
+    TaskStep ret = (cPtr == global::System.IntPtr.Zero) ? null : new TaskStep(cPtr, false);
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+    return ret;
+  }
+
+  public static TaskStep EndTableType() {
+    global::System.IntPtr cPtr = libdesPINVOKE.TaskStep_EndTableType();
+    TaskStep ret = (cPtr == global::System.IntPtr.Zero) ? null : new TaskStep(cPtr, false);
+    return ret;
+  }
+
+  public string StepType() {
+    string ret = libdesPINVOKE.TaskStep_StepType(swigCPtr);
+    return ret;
+  }
+
+  public string AsString() {
+    string ret = libdesPINVOKE.TaskStep_AsString(swigCPtr);
+    return ret;
   }
 
 }

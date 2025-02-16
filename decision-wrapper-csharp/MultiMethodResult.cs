@@ -9,20 +9,20 @@
 //------------------------------------------------------------------------------
 
 
-public class MethodResult : global::System.IDisposable {
+public class MultiMethodResult : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
   protected bool swigCMemOwn;
 
-  internal MethodResult(global::System.IntPtr cPtr, bool cMemoryOwn) {
+  internal MultiMethodResult(global::System.IntPtr cPtr, bool cMemoryOwn) {
     swigCMemOwn = cMemoryOwn;
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(MethodResult obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(MultiMethodResult obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(MethodResult obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(MultiMethodResult obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -35,7 +35,7 @@ public class MethodResult : global::System.IDisposable {
     }
   }
 
-  ~MethodResult() {
+  ~MultiMethodResult() {
     Dispose(false);
   }
 
@@ -49,42 +49,42 @@ public class MethodResult : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_MethodResult(swigCPtr);
+          libdesPINVOKE.delete_MultiMethodResult(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
     }
   }
 
-  public MethodResult() : this(libdesPINVOKE.new_MethodResult__SWIG_0(), true) {
+  public MultiMethodResult() : this(libdesPINVOKE.new_MultiMethodResult__SWIG_0(), true) {
   }
 
-  public MethodResult(SolveStatus first, OneStepMethod second) : this(libdesPINVOKE.new_MethodResult__SWIG_1(SolveStatus.getCPtr(first), OneStepMethod.getCPtr(second)), true) {
+  public MultiMethodResult(SolveStatus first, MultiStepMethod second) : this(libdesPINVOKE.new_MultiMethodResult__SWIG_1(SolveStatus.getCPtr(first), MultiStepMethod.getCPtr(second)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public MethodResult(MethodResult other) : this(libdesPINVOKE.new_MethodResult__SWIG_2(MethodResult.getCPtr(other)), true) {
+  public MultiMethodResult(MultiMethodResult other) : this(libdesPINVOKE.new_MultiMethodResult__SWIG_2(MultiMethodResult.getCPtr(other)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
   public SolveStatus first {
     set {
-      libdesPINVOKE.MethodResult_first_set(swigCPtr, SolveStatus.getCPtr(value));
+      libdesPINVOKE.MultiMethodResult_first_set(swigCPtr, SolveStatus.getCPtr(value));
     } 
     get {
-      global::System.IntPtr cPtr = libdesPINVOKE.MethodResult_first_get(swigCPtr);
+      global::System.IntPtr cPtr = libdesPINVOKE.MultiMethodResult_first_get(swigCPtr);
       SolveStatus ret = (cPtr == global::System.IntPtr.Zero) ? null : new SolveStatus(cPtr, false);
       return ret;
     } 
   }
 
-  public OneStepMethod second {
+  public MultiStepMethod second {
     set {
-      libdesPINVOKE.MethodResult_second_set(swigCPtr, OneStepMethod.getCPtr(value));
+      libdesPINVOKE.MultiMethodResult_second_set(swigCPtr, MultiStepMethod.getCPtr(value));
     } 
     get {
-      global::System.IntPtr cPtr = libdesPINVOKE.MethodResult_second_get(swigCPtr);
-      OneStepMethod ret = (cPtr == global::System.IntPtr.Zero) ? null : new OneStepMethod(cPtr, false);
+      global::System.IntPtr cPtr = libdesPINVOKE.MultiMethodResult_second_get(swigCPtr);
+      MultiStepMethod ret = (cPtr == global::System.IntPtr.Zero) ? null : new MultiStepMethod(cPtr, false);
       return ret;
     } 
   }

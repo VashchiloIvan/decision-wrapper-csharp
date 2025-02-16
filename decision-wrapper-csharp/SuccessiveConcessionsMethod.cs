@@ -46,10 +46,11 @@ public class SuccessiveConcessionsMethod : MultiStepMethod {
     }
   }
 
-  public override IntermediateMethodData getIntermediateMethodData() {
-    global::System.IntPtr cPtr = libdesPINVOKE.SuccessiveConcessionsMethod_getIntermediateMethodData(swigCPtr);
-    IntermediateMethodData ret = (cPtr == global::System.IntPtr.Zero) ? null : new IntermediateMethodData(cPtr, false);
-    return ret;
+  public SuccessiveConcessionsMethod() : this(libdesPINVOKE.new_SuccessiveConcessionsMethod__SWIG_0(), true) {
+  }
+
+  public SuccessiveConcessionsMethod(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_SuccessiveConcessionsMethod__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
   public override SolveStatus solve() {
@@ -59,6 +60,12 @@ public class SuccessiveConcessionsMethod : MultiStepMethod {
 
   public override SolveStatus makeIteration(DecisionMakerInfo decisionMakingInfo) {
     SolveStatus ret = new SolveStatus(libdesPINVOKE.SuccessiveConcessionsMethod_makeIteration(swigCPtr, DecisionMakerInfo.getCPtr(decisionMakingInfo)), true);
+    return ret;
+  }
+
+  public override IntermediateMethodData getIntermediateMethodData() {
+    global::System.IntPtr cPtr = libdesPINVOKE.SuccessiveConcessionsMethod_getIntermediateMethodData(swigCPtr);
+    IntermediateMethodData ret = (cPtr == global::System.IntPtr.Zero) ? null : new IntermediateMethodData(cPtr, false);
     return ret;
   }
 
@@ -76,8 +83,17 @@ public class SuccessiveConcessionsMethod : MultiStepMethod {
     return ret;
   }
 
-  public int getBestEstimateVectorNum() {
-    int ret = libdesPINVOKE.SuccessiveConcessionsMethod_getBestEstimateVectorNum(swigCPtr);
+  public override EstimateVector getBestEstimateVector() {
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.SuccessiveConcessionsMethod_getBestEstimateVector(swigCPtr), true);
+    return ret;
+  }
+
+  public override void withSolveProcessLog() {
+    libdesPINVOKE.SuccessiveConcessionsMethod_withSolveProcessLog(swigCPtr);
+  }
+
+  public override TaskProcess getProcess() {
+    TaskProcess ret = new TaskProcess(libdesPINVOKE.SuccessiveConcessionsMethod_getProcess(swigCPtr), true);
     return ret;
   }
 

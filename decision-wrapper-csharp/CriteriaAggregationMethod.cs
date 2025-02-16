@@ -97,4 +97,13 @@ public class CriteriaAggregationMethod : OneStepMethod {
     return ret;
   }
 
+  public override void withSolveProcessLog() {
+    libdesPINVOKE.CriteriaAggregationMethod_withSolveProcessLog(swigCPtr);
+  }
+
+  public override TaskProcess getProcess() {
+    TaskProcess ret = new TaskProcess(libdesPINVOKE.CriteriaAggregationMethod_getProcess(swigCPtr), true);
+    return ret;
+  }
+
 }
