@@ -62,6 +62,11 @@ public class Smart : OneStepMethod {
     libdesPINVOKE.Smart_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
   }
 
+  public void setMinMaxCriteriaValues(MinMaxCriteriaValues values) {
+    libdesPINVOKE.Smart_setMinMaxCriteriaValues(swigCPtr, MinMaxCriteriaValues.getCPtr(values));
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
   public override SolveStatus solve() {
     SolveStatus ret = new SolveStatus(libdesPINVOKE.Smart_solve(swigCPtr), true);
     return ret;
@@ -70,10 +75,6 @@ public class Smart : OneStepMethod {
   public override MathModel getMathModel() {
     MathModel ret = new MathModel(libdesPINVOKE.Smart_getMathModel(swigCPtr), true);
     return ret;
-  }
-
-  public void setNormalizer(Normalizer normalizer) {
-    libdesPINVOKE.Smart_setNormalizer(swigCPtr, Normalizer.getCPtr(normalizer));
   }
 
   public override EstimateVector getBestEstimateVector() {

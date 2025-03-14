@@ -711,6 +711,33 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiplicativeAggregationOperator")]
   public static extern void delete_MultiplicativeAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMax")]
+  public static extern global::System.IntPtr new_MinMax(double jarg1, double jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_isValid")]
+  public static extern bool MinMax_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_max")]
+  public static extern double MinMax_max(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_min")]
+  public static extern double MinMax_min(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_minMaxDelta")]
+  public static extern double MinMax_minMaxDelta(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMax")]
+  public static extern void delete_MinMax(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxCriteriaValues")]
+  public static extern global::System.IntPtr new_MinMaxCriteriaValues(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxCriteriaValues_getValues")]
+  public static extern global::System.IntPtr MinMaxCriteriaValues_getValues(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMaxCriteriaValues")]
+  public static extern void delete_MinMaxCriteriaValues(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LexicographicOptimization__SWIG_0")]
   public static extern global::System.IntPtr new_LexicographicOptimization__SWIG_0();
 
@@ -873,14 +900,14 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_setCriteriaRelation")]
   public static extern void Smart_setCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_setMinMaxCriteriaValues")]
+  public static extern void Smart_setMinMaxCriteriaValues(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_solve")]
   public static extern global::System.IntPtr Smart_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_getMathModel")]
   public static extern global::System.IntPtr Smart_getMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_setNormalizer")]
-  public static extern void Smart_setNormalizer(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_getBestEstimateVector")]
   public static extern global::System.IntPtr Smart_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
@@ -1865,6 +1892,75 @@ class libdesPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_StringTable")]
   public static extern void delete_StringTable(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxValues__SWIG_0")]
+  public static extern global::System.IntPtr new_MinMaxValues__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxValues__SWIG_1")]
+  public static extern global::System.IntPtr new_MinMaxValues__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Clear")]
+  public static extern void MinMaxValues_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Add")]
+  public static extern void MinMaxValues_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_size")]
+  public static extern uint MinMaxValues_size(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_empty")]
+  public static extern bool MinMaxValues_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_capacity")]
+  public static extern uint MinMaxValues_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_reserve")]
+  public static extern void MinMaxValues_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxValues__SWIG_2")]
+  public static extern global::System.IntPtr new_MinMaxValues__SWIG_2(int jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_getitemcopy")]
+  public static extern global::System.IntPtr MinMaxValues_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_getitem")]
+  public static extern global::System.IntPtr MinMaxValues_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_setitem")]
+  public static extern void MinMaxValues_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_AddRange")]
+  public static extern void MinMaxValues_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_GetRange")]
+  public static extern global::System.IntPtr MinMaxValues_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Insert")]
+  public static extern void MinMaxValues_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_InsertRange")]
+  public static extern void MinMaxValues_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_RemoveAt")]
+  public static extern void MinMaxValues_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_RemoveRange")]
+  public static extern void MinMaxValues_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Repeat")]
+  public static extern global::System.IntPtr MinMaxValues_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Reverse__SWIG_0")]
+  public static extern void MinMaxValues_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Reverse__SWIG_1")]
+  public static extern void MinMaxValues_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_SetRange")]
+  public static extern void MinMaxValues_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMaxValues")]
+  public static extern void delete_MinMaxValues(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlternativeUnifier_SWIGUpcast")]
   public static extern global::System.IntPtr AlternativeUnifier_SWIGUpcast(global::System.IntPtr jarg1);
