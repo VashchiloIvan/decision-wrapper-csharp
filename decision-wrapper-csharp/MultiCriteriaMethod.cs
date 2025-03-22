@@ -46,17 +46,17 @@ public class MultiCriteriaMethod : DecisionMakingMethod {
     }
   }
 
-  public virtual MathModel getMathModel() {
+  public MathModel getMathModel() {
     MathModel ret = new MathModel(libdesPINVOKE.MultiCriteriaMethod_getMathModel(swigCPtr), true);
     return ret;
   }
 
-  public virtual void setMathModel(MathModel mathModel) {
+  public void setMathModel(MathModel mathModel) {
     libdesPINVOKE.MultiCriteriaMethod_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public virtual void setCriteriaRelation(CriteriaRelation relation) {
+  public void setCriteriaRelation(CriteriaRelation relation) {
     libdesPINVOKE.MultiCriteriaMethod_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
   }
 
@@ -65,11 +65,11 @@ public class MultiCriteriaMethod : DecisionMakingMethod {
     return ret;
   }
 
-  public virtual void withSolveProcessLog() {
+  public void withSolveProcessLog() {
     libdesPINVOKE.MultiCriteriaMethod_withSolveProcessLog(swigCPtr);
   }
 
-  public virtual TaskProcess getProcess() {
+  public TaskProcess getProcess() {
     TaskProcess ret = new TaskProcess(libdesPINVOKE.MultiCriteriaMethod_getProcess(swigCPtr), true);
     return ret;
   }

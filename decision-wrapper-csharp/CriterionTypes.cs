@@ -9,18 +9,20 @@
 //------------------------------------------------------------------------------
 
 
-public class LexicographicOptimization : OneStepMethod {
+public class CriterionTypes : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
+  protected bool swigCMemOwn;
 
-  internal LexicographicOptimization(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.LexicographicOptimization_SWIGUpcast(cPtr), cMemoryOwn) {
+  internal CriterionTypes(global::System.IntPtr cPtr, bool cMemoryOwn) {
+    swigCMemOwn = cMemoryOwn;
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(CriterionTypes obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(CriterionTypes obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -33,33 +35,38 @@ public class LexicographicOptimization : OneStepMethod {
     }
   }
 
-  protected override void Dispose(bool disposing) {
+  ~CriterionTypes() {
+    Dispose(false);
+  }
+
+  public void Dispose() {
+    Dispose(true);
+    global::System.GC.SuppressFinalize(this);
+  }
+
+  protected virtual void Dispose(bool disposing) {
     lock(this) {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_LexicographicOptimization(swigCPtr);
+          libdesPINVOKE.delete_CriterionTypes(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
-      base.Dispose(disposing);
     }
   }
 
-  public LexicographicOptimization() : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_0(), true) {
-  }
-
-  public LexicographicOptimization(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+  public CriterionTypes(CriterionTypeList types) : this(libdesPINVOKE.new_CriterionTypes(CriterionTypeList.getCPtr(types)), true) {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public override SolveStatus solve() {
-    SolveStatus ret = new SolveStatus(libdesPINVOKE.LexicographicOptimization_solve(swigCPtr), true);
+  public bool isValid() {
+    bool ret = libdesPINVOKE.CriterionTypes_isValid(swigCPtr);
     return ret;
   }
 
-  public override EstimateVector getBestEstimateVector() {
-    EstimateVector ret = new EstimateVector(libdesPINVOKE.LexicographicOptimization_getBestEstimateVector(swigCPtr), true);
+  public CriterionTypeList getCriterions() {
+    CriterionTypeList ret = new CriterionTypeList(libdesPINVOKE.CriterionTypes_getCriterions(swigCPtr), true);
     return ret;
   }
 

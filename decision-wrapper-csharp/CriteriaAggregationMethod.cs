@@ -60,20 +60,6 @@ public class CriteriaAggregationMethod : OneStepMethod {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public override MathModel getMathModel() {
-    MathModel ret = new MathModel(libdesPINVOKE.CriteriaAggregationMethod_getMathModel(swigCPtr), true);
-    return ret;
-  }
-
-  public override void setMathModel(MathModel mathModel) {
-    libdesPINVOKE.CriteriaAggregationMethod_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public override void setCriteriaRelation(CriteriaRelation relation) {
-    libdesPINVOKE.CriteriaAggregationMethod_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
-  }
-
   public void setAggregationOperator(AggregationOperator aggregationOperator) {
     libdesPINVOKE.CriteriaAggregationMethod_setAggregationOperator(swigCPtr, AggregationOperator.getCPtr(aggregationOperator));
   }
@@ -94,15 +80,6 @@ public class CriteriaAggregationMethod : OneStepMethod {
 
   public override EstimateVector getBestEstimateVector() {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.CriteriaAggregationMethod_getBestEstimateVector(swigCPtr), true);
-    return ret;
-  }
-
-  public override void withSolveProcessLog() {
-    libdesPINVOKE.CriteriaAggregationMethod_withSolveProcessLog(swigCPtr);
-  }
-
-  public override TaskProcess getProcess() {
-    TaskProcess ret = new TaskProcess(libdesPINVOKE.CriteriaAggregationMethod_getProcess(swigCPtr), true);
     return ret;
   }
 

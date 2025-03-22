@@ -69,31 +69,8 @@ public class SuccessiveConcessionsMethod : MultiStepMethod {
     return ret;
   }
 
-  public override void setMathModel(MathModel mathModel) {
-    libdesPINVOKE.SuccessiveConcessionsMethod_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public override void setCriteriaRelation(CriteriaRelation relation) {
-    libdesPINVOKE.SuccessiveConcessionsMethod_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
-  }
-
-  public override MathModel getMathModel() {
-    MathModel ret = new MathModel(libdesPINVOKE.SuccessiveConcessionsMethod_getMathModel(swigCPtr), true);
-    return ret;
-  }
-
   public override EstimateVector getBestEstimateVector() {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.SuccessiveConcessionsMethod_getBestEstimateVector(swigCPtr), true);
-    return ret;
-  }
-
-  public override void withSolveProcessLog() {
-    libdesPINVOKE.SuccessiveConcessionsMethod_withSolveProcessLog(swigCPtr);
-  }
-
-  public override TaskProcess getProcess() {
-    TaskProcess ret = new TaskProcess(libdesPINVOKE.SuccessiveConcessionsMethod_getProcess(swigCPtr), true);
     return ret;
   }
 

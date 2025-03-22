@@ -53,15 +53,6 @@ public class Smart : OneStepMethod {
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
-  public override void setMathModel(MathModel mathModel) {
-    libdesPINVOKE.Smart_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public override void setCriteriaRelation(CriteriaRelation relation) {
-    libdesPINVOKE.Smart_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
-  }
-
   public void setMinMaxCriteriaValues(MinMaxCriteriaValues values) {
     libdesPINVOKE.Smart_setMinMaxCriteriaValues(swigCPtr, MinMaxCriteriaValues.getCPtr(values));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
@@ -72,22 +63,8 @@ public class Smart : OneStepMethod {
     return ret;
   }
 
-  public override MathModel getMathModel() {
-    MathModel ret = new MathModel(libdesPINVOKE.Smart_getMathModel(swigCPtr), true);
-    return ret;
-  }
-
   public override EstimateVector getBestEstimateVector() {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.Smart_getBestEstimateVector(swigCPtr), true);
-    return ret;
-  }
-
-  public override void withSolveProcessLog() {
-    libdesPINVOKE.Smart_withSolveProcessLog(swigCPtr);
-  }
-
-  public override TaskProcess getProcess() {
-    TaskProcess ret = new TaskProcess(libdesPINVOKE.Smart_getProcess(swigCPtr), true);
     return ret;
   }
 

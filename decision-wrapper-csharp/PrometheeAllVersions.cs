@@ -9,18 +9,18 @@
 //------------------------------------------------------------------------------
 
 
-public class LexicographicOptimization : OneStepMethod {
+public class PrometheeAllVersions : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
 
-  internal LexicographicOptimization(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.LexicographicOptimization_SWIGUpcast(cPtr), cMemoryOwn) {
+  internal PrometheeAllVersions(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.PrometheeAllVersions_SWIGUpcast(cPtr), cMemoryOwn) {
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(PrometheeAllVersions obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(PrometheeAllVersions obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -38,7 +38,7 @@ public class LexicographicOptimization : OneStepMethod {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_LexicographicOptimization(swigCPtr);
+          libdesPINVOKE.delete_PrometheeAllVersions(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -46,20 +46,29 @@ public class LexicographicOptimization : OneStepMethod {
     }
   }
 
-  public LexicographicOptimization() : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_0(), true) {
+  public PrometheeAllVersions() : this(libdesPINVOKE.new_PrometheeAllVersions__SWIG_0(), true) {
   }
 
-  public LexicographicOptimization(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+  public PrometheeAllVersions(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_PrometheeAllVersions__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
+  public void useMethodVersions(bool useI, bool useII, bool useIII) {
+    libdesPINVOKE.PrometheeAllVersions_useMethodVersions(swigCPtr, useI, useII, useIII);
+  }
+
+  public void setCriterionTypes(CriterionTypes types) {
+    libdesPINVOKE.PrometheeAllVersions_setCriterionTypes(swigCPtr, CriterionTypes.getCPtr(types));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
 
   public override SolveStatus solve() {
-    SolveStatus ret = new SolveStatus(libdesPINVOKE.LexicographicOptimization_solve(swigCPtr), true);
+    SolveStatus ret = new SolveStatus(libdesPINVOKE.PrometheeAllVersions_solve(swigCPtr), true);
     return ret;
   }
 
   public override EstimateVector getBestEstimateVector() {
-    EstimateVector ret = new EstimateVector(libdesPINVOKE.LexicographicOptimization_getBestEstimateVector(swigCPtr), true);
+    EstimateVector ret = new EstimateVector(libdesPINVOKE.PrometheeAllVersions_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
 

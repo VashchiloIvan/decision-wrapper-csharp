@@ -69,31 +69,8 @@ public class ElectreMethod : MultiStepMethod {
     return ret;
   }
 
-  public override void setMathModel(MathModel mathModel) {
-    libdesPINVOKE.ElectreMethod_setMathModel(swigCPtr, MathModel.getCPtr(mathModel));
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public override void setCriteriaRelation(CriteriaRelation relation) {
-    libdesPINVOKE.ElectreMethod_setCriteriaRelation(swigCPtr, CriteriaRelation.getCPtr(relation));
-  }
-
-  public override MathModel getMathModel() {
-    MathModel ret = new MathModel(libdesPINVOKE.ElectreMethod_getMathModel(swigCPtr), true);
-    return ret;
-  }
-
   public override EstimateVector getBestEstimateVector() {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.ElectreMethod_getBestEstimateVector(swigCPtr), true);
-    return ret;
-  }
-
-  public override void withSolveProcessLog() {
-    libdesPINVOKE.ElectreMethod_withSolveProcessLog(swigCPtr);
-  }
-
-  public override TaskProcess getProcess() {
-    TaskProcess ret = new TaskProcess(libdesPINVOKE.ElectreMethod_getProcess(swigCPtr), true);
     return ret;
   }
 

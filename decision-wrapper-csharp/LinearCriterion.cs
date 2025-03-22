@@ -9,18 +9,18 @@
 //------------------------------------------------------------------------------
 
 
-public class LexicographicOptimization : OneStepMethod {
+public class LinearCriterion : CriterionType {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
 
-  internal LexicographicOptimization(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.LexicographicOptimization_SWIGUpcast(cPtr), cMemoryOwn) {
+  internal LinearCriterion(global::System.IntPtr cPtr, bool cMemoryOwn) : base(libdesPINVOKE.LinearCriterion_SWIGUpcast(cPtr), cMemoryOwn) {
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(LinearCriterion obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(LexicographicOptimization obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(LinearCriterion obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -38,7 +38,7 @@ public class LexicographicOptimization : OneStepMethod {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          libdesPINVOKE.delete_LexicographicOptimization(swigCPtr);
+          libdesPINVOKE.delete_LinearCriterion(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -46,20 +46,16 @@ public class LexicographicOptimization : OneStepMethod {
     }
   }
 
-  public LexicographicOptimization() : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_0(), true) {
+  public LinearCriterion(double q, double r) : this(libdesPINVOKE.new_LinearCriterion(q, r), true) {
   }
 
-  public LexicographicOptimization(MathModel mathModel, CriteriaRelation relation) : this(libdesPINVOKE.new_LexicographicOptimization__SWIG_1(MathModel.getCPtr(mathModel), CriteriaRelation.getCPtr(relation)), true) {
-    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
-  }
-
-  public override SolveStatus solve() {
-    SolveStatus ret = new SolveStatus(libdesPINVOKE.LexicographicOptimization_solve(swigCPtr), true);
+  public override double execute(double value) {
+    double ret = libdesPINVOKE.LinearCriterion_execute(swigCPtr, value);
     return ret;
   }
 
-  public override EstimateVector getBestEstimateVector() {
-    EstimateVector ret = new EstimateVector(libdesPINVOKE.LexicographicOptimization_getBestEstimateVector(swigCPtr), true);
+  public override bool isValid() {
+    bool ret = libdesPINVOKE.LinearCriterion_isValid(swigCPtr);
     return ret;
   }
 
