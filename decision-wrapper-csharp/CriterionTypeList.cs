@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class CriterionTypeList : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IList<CriterionType>
  {
@@ -364,5 +365,7 @@ public class CriterionTypeList : global::System.IDisposable, global::System.Coll
     bool ret = libdesPINVOKE.CriterionTypeList_Remove(swigCPtr, CriterionType.getCPtr(value));
     return ret;
   }
+
+}
 
 }

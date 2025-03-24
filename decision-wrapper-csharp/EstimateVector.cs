@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class EstimateVector : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -83,5 +84,7 @@ public class EstimateVector : global::System.IDisposable {
     string ret = libdesPINVOKE.EstimateVector_ToString(swigCPtr);
     return ret;
   }
+
+}
 
 }

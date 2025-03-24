@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MethodResult : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -88,5 +89,7 @@ public class MethodResult : global::System.IDisposable {
       return ret;
     } 
   }
+
+}
 
 }

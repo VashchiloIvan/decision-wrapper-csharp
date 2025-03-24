@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class OneStepMethod : MultiCriteriaMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -45,5 +46,7 @@ public class OneStepMethod : MultiCriteriaMethod {
       base.Dispose(disposing);
     }
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MinMax : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -78,5 +79,7 @@ public class MinMax : global::System.IDisposable {
     double ret = libdesPINVOKE.MinMax_minMaxDelta(swigCPtr);
     return ret;
   }
+
+}
 
 }

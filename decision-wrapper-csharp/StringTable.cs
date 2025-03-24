@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class StringTable : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IEnumerable<StringList>
  {
@@ -343,5 +344,7 @@ public class StringTable : global::System.IDisposable, global::System.Collection
     libdesPINVOKE.StringTable_SetRange(swigCPtr, index, StringTable.getCPtr(values));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
+
+}
 
 }

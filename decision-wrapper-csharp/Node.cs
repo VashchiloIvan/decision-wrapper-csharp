@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class Node : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -103,5 +104,7 @@ public class Node : global::System.IDisposable {
   public void deleteChilds() {
     libdesPINVOKE.Node_deleteChilds(swigCPtr);
   }
+
+}
 
 }

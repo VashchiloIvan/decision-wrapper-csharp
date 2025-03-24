@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class PrometheeAllVersions : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -71,5 +72,7 @@ public class PrometheeAllVersions : OneStepMethod {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.PrometheeAllVersions_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

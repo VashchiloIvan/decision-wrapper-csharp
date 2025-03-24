@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class WeightMap : global::System.IDisposable 
     , global::System.Collections.Generic.IDictionary<int, double>
@@ -303,5 +304,7 @@ public class WeightMap : global::System.IDisposable
   private void destroy_iterator(global::System.IntPtr swigiterator) {
     libdesPINVOKE.WeightMap_destroy_iterator(swigCPtr, swigiterator);
   }
+
+}
 
 }

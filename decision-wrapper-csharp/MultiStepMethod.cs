@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MultiStepMethod : MultiCriteriaMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -56,5 +57,7 @@ public class MultiStepMethod : MultiCriteriaMethod {
     IntermediateMethodData ret = (cPtr == global::System.IntPtr.Zero) ? null : new IntermediateMethodData(cPtr, false);
     return ret;
   }
+
+}
 
 }

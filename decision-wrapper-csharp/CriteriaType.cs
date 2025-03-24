@@ -8,8 +8,11 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public enum CriteriaType {
   MAXIMIZATION,
   MINIMIZATION
+}
+
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class SuccessiveConcessionsMethod : MultiStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -73,5 +74,7 @@ public class SuccessiveConcessionsMethod : MultiStepMethod {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.SuccessiveConcessionsMethod_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

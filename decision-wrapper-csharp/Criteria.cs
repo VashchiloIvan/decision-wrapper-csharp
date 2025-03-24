@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class Criteria : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -85,5 +86,7 @@ public class Criteria : global::System.IDisposable {
   public void setType(CriteriaType type) {
     libdesPINVOKE.Criteria_setType(swigCPtr, (int)type);
   }
+
+}
 
 }

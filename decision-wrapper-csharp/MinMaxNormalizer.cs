@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MinMaxNormalizer : Normalizer {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -54,5 +55,7 @@ public class MinMaxNormalizer : Normalizer {
 
   public MinMaxNormalizer() : this(libdesPINVOKE.new_MinMaxNormalizer(), true) {
   }
+
+}
 
 }

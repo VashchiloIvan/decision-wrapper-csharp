@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MinMaxValues : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IEnumerable<MinMax>
  {
@@ -343,5 +344,7 @@ public class MinMaxValues : global::System.IDisposable, global::System.Collectio
     libdesPINVOKE.MinMaxValues_SetRange(swigCPtr, index, MinMaxValues.getCPtr(values));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
+
+}
 
 }

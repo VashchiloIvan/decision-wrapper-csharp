@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class OneStepMultiCriteriaMethodSolver : MultiCriteriaMethodSolver {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -63,5 +64,7 @@ public class OneStepMultiCriteriaMethodSolver : MultiCriteriaMethodSolver {
     MethodsResults ret = new MethodsResults(libdesPINVOKE.OneStepMultiCriteriaMethodSolver_solve(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MultiCriteriaMethod : DecisionMakingMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -73,5 +74,7 @@ public class MultiCriteriaMethod : DecisionMakingMethod {
     TaskProcess ret = new TaskProcess(libdesPINVOKE.MultiCriteriaMethod_getProcess(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

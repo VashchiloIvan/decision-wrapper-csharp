@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class MathModel : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -110,5 +111,7 @@ public class MathModel : global::System.IDisposable {
     string ret = libdesPINVOKE.MathModel_ToString(swigCPtr);
     return ret;
   }
+
+}
 
 }

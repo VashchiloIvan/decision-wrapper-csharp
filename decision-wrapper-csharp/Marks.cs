@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class Marks : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IList<double>
  {
@@ -362,5 +363,7 @@ public class Marks : global::System.IDisposable, global::System.Collections.IEnu
     bool ret = libdesPINVOKE.Marks_Remove(swigCPtr, value);
     return ret;
   }
+
+}
 
 }

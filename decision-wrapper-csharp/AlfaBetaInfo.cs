@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class AlfaBetaInfo : DecisionMakerInfo {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -71,5 +72,7 @@ public class AlfaBetaInfo : DecisionMakerInfo {
     string ret = libdesPINVOKE.AlfaBetaInfo_toString(swigCPtr);
     return ret;
   }
+
+}
 
 }

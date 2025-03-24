@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class TwoCriteriaRelationList : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IEnumerable<TwoCriteriaRelation>
  {
@@ -343,5 +344,7 @@ public class TwoCriteriaRelationList : global::System.IDisposable, global::Syste
     libdesPINVOKE.TwoCriteriaRelationList_SetRange(swigCPtr, index, TwoCriteriaRelationList.getCPtr(values));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
+
+}
 
 }

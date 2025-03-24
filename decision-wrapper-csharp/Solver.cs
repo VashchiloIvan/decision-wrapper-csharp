@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class Solver : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -58,5 +59,7 @@ public class Solver : global::System.IDisposable {
 
   public Solver() : this(libdesPINVOKE.new_Solver(), true) {
   }
+
+}
 
 }

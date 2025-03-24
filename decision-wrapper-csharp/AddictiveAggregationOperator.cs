@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class AddictiveAggregationOperator : AggregationOperator {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -69,5 +70,7 @@ public class AddictiveAggregationOperator : AggregationOperator {
 
   public AddictiveAggregationOperator() : this(libdesPINVOKE.new_AddictiveAggregationOperator(), true) {
   }
+
+}
 
 }

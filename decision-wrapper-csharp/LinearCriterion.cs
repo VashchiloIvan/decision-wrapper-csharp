@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class LinearCriterion : CriterionType {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -58,5 +59,7 @@ public class LinearCriterion : CriterionType {
     bool ret = libdesPINVOKE.LinearCriterion_isValid(swigCPtr);
     return ret;
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class DecisionMakerInfo : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -63,5 +64,7 @@ public class DecisionMakerInfo : global::System.IDisposable {
     string ret = libdesPINVOKE.DecisionMakerInfo_toString(swigCPtr);
     return ret;
   }
+
+}
 
 }

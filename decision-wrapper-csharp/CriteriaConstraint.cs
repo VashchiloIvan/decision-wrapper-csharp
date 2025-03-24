@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public enum CriteriaConstraint {
   More,
@@ -15,4 +16,6 @@ public enum CriteriaConstraint {
   Equivalent,
   LessOrEquivalent,
   Less
+}
+
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class StrongAlternatives : IntermediateMethodData {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -59,5 +60,7 @@ public class StrongAlternatives : IntermediateMethodData {
     string ret = libdesPINVOKE.StrongAlternatives_toString(swigCPtr);
     return ret;
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class AggregationOperator : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -76,5 +77,7 @@ public class AggregationOperator : global::System.IDisposable {
     bool ret = libdesPINVOKE.AggregationOperator_isNeedNormalizedMathModel(swigCPtr);
     return ret;
   }
+
+}
 
 }

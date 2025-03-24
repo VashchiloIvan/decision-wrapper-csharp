@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class TwoCriteriaRelation : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -104,5 +105,7 @@ public class TwoCriteriaRelation : global::System.IDisposable {
     CriteriaConstraint ret = (CriteriaConstraint)libdesPINVOKE.TwoCriteriaRelation_getInvertConstraint(swigCPtr, (int)constraint);
     return ret;
   }
+
+}
 
 }

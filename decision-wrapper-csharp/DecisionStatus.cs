@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public enum DecisionStatus {
   None,
@@ -17,4 +18,6 @@ public enum DecisionStatus {
   Infeasible,
   InvalidTaskModel,
   InvalidData
+}
+
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class TaskProcess : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IList<TaskStep>
  {
@@ -364,5 +365,7 @@ public class TaskProcess : global::System.IDisposable, global::System.Collection
     bool ret = libdesPINVOKE.TaskProcess_Remove(swigCPtr, TaskStep.getCPtr(value));
     return ret;
   }
+
+}
 
 }

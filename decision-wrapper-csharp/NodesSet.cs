@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class NodesSet : global::System.IDisposable, global::System.Collections.Generic.ISet<Node>
  {
@@ -340,5 +341,7 @@ public class NodesSet : global::System.IDisposable, global::System.Collections.G
   private void destroy_iterator(global::System.IntPtr swigiterator) {
     libdesPINVOKE.NodesSet_destroy_iterator(swigCPtr, swigiterator);
   }
+
+}
 
 }

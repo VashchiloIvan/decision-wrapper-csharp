@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 class libdesPINVOKE {
 
@@ -192,1989 +193,1991 @@ class libdesPINVOKE {
   }
 
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MathModel__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MathModel__SWIG_0")]
   public static extern global::System.IntPtr new_MathModel__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MathModel__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MathModel__SWIG_1")]
   public static extern global::System.IntPtr new_MathModel__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MathModel__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MathModel__SWIG_2")]
   public static extern global::System.IntPtr new_MathModel__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MathModel")]
   public static extern void delete_MathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_getCriteriaList")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_getCriteriaList")]
   public static extern global::System.IntPtr MathModel_getCriteriaList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_getEstimateVectorList")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_getEstimateVectorList")]
   public static extern global::System.IntPtr MathModel_getEstimateVectorList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_sumByCriteria")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_sumByCriteria")]
   public static extern double MathModel_sumByCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_maxByCriteria")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_maxByCriteria")]
   public static extern double MathModel_maxByCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_minByCriteria")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_minByCriteria")]
   public static extern double MathModel_minByCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_isValid")]
   public static extern bool MathModel_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_isNormalized")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_isNormalized")]
   public static extern bool MathModel_isNormalized(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_deleteEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_deleteEstimateVector")]
   public static extern void MathModel_deleteEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MathModel_ToString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MathModel_ToString")]
   public static extern string MathModel_ToString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Criteria__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Criteria__SWIG_0")]
   public static extern global::System.IntPtr new_Criteria__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Criteria__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Criteria__SWIG_1")]
   public static extern global::System.IntPtr new_Criteria__SWIG_1(string jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Criteria__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Criteria__SWIG_2")]
   public static extern global::System.IntPtr new_Criteria__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Criteria")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Criteria")]
   public static extern void delete_Criteria(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criteria_getName")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criteria_getName")]
   public static extern string Criteria_getName(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criteria_getType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criteria_getType")]
   public static extern int Criteria_getType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criteria_setName")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criteria_setName")]
   public static extern void Criteria_setName(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criteria_setType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criteria_setType")]
   public static extern void Criteria_setType(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_EstimateVector__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_EstimateVector__SWIG_0")]
   public static extern global::System.IntPtr new_EstimateVector__SWIG_0(string jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_EstimateVector__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_EstimateVector__SWIG_1")]
   public static extern global::System.IntPtr new_EstimateVector__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_EstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_EstimateVector")]
   public static extern void delete_EstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_getName")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVector_getName")]
   public static extern string EstimateVector_getName(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_getMarks")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVector_getMarks")]
   public static extern global::System.IntPtr EstimateVector_getMarks(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_setMarks")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVector_setMarks")]
   public static extern void EstimateVector_setMarks(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVector_ToString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVector_ToString")]
   public static extern string EstimateVector_ToString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Unifier_getUnifiedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Unifier_getUnifiedMathModel")]
   public static extern global::System.IntPtr Unifier_getUnifiedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Unifier")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Unifier")]
   public static extern void delete_Unifier(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlternativeUnifier_getUnifiedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlternativeUnifier_getUnifiedMathModel")]
   public static extern global::System.IntPtr AlternativeUnifier_getUnifiedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_AlternativeUnifier")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_AlternativeUnifier")]
   public static extern global::System.IntPtr new_AlternativeUnifier();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_AlternativeUnifier")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_AlternativeUnifier")]
   public static extern void delete_AlternativeUnifier(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Normalizer_getNormalizedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Normalizer_getNormalizedMathModel")]
   public static extern global::System.IntPtr Normalizer_getNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Normalizer")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Normalizer")]
   public static extern void delete_Normalizer(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxNormalizer_getNormalizedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxNormalizer_getNormalizedMathModel")]
   public static extern global::System.IntPtr MinMaxNormalizer_getNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxNormalizer")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MinMaxNormalizer")]
   public static extern global::System.IntPtr new_MinMaxNormalizer();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMaxNormalizer")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MinMaxNormalizer")]
   public static extern void delete_MinMaxNormalizer(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelation_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelation_isValid")]
   public static extern bool CriteriaRelation_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelation_copy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelation_copy")]
   public static extern global::System.IntPtr CriteriaRelation_copy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CriteriaRelation")]
   public static extern void delete_CriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelationConverter_convertToAllCriteriaRelation__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelationConverter_convertToAllCriteriaRelation__SWIG_0")]
   public static extern global::System.IntPtr CriteriaRelationConverter_convertToAllCriteriaRelation__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelationConverter_convertToAllCriteriaRelation__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelationConverter_convertToAllCriteriaRelation__SWIG_1")]
   public static extern global::System.IntPtr CriteriaRelationConverter_convertToAllCriteriaRelation__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelationConverter_convertToSimpleCriteriaRelation__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelationConverter_convertToSimpleCriteriaRelation__SWIG_0")]
   public static extern global::System.IntPtr CriteriaRelationConverter_convertToSimpleCriteriaRelation__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelationConverter_convertToSimpleCriteriaRelation__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelationConverter_convertToSimpleCriteriaRelation__SWIG_1")]
   public static extern global::System.IntPtr CriteriaRelationConverter_convertToSimpleCriteriaRelation__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelationConverter_convertToWeightCriteriaRelation__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelationConverter_convertToWeightCriteriaRelation__SWIG_0")]
   public static extern global::System.IntPtr CriteriaRelationConverter_convertToWeightCriteriaRelation__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaRelationConverter_convertToWeightCriteriaRelation__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaRelationConverter_convertToWeightCriteriaRelation__SWIG_1")]
   public static extern global::System.IntPtr CriteriaRelationConverter_convertToWeightCriteriaRelation__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriteriaRelationConverter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CriteriaRelationConverter")]
   public static extern void delete_CriteriaRelationConverter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_AllCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_AllCriteriaRelation")]
   public static extern global::System.IntPtr new_AllCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_AllCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_AllCriteriaRelation")]
   public static extern void delete_AllCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AllCriteriaRelation_getIdSequence")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AllCriteriaRelation_getIdSequence")]
   public static extern global::System.IntPtr AllCriteriaRelation_getIdSequence(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AllCriteriaRelation_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AllCriteriaRelation_isValid")]
   public static extern bool AllCriteriaRelation_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AllCriteriaRelation_copy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AllCriteriaRelation_copy")]
   public static extern global::System.IntPtr AllCriteriaRelation_copy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TwoCriteriaRelation__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TwoCriteriaRelation__SWIG_0")]
   public static extern global::System.IntPtr new_TwoCriteriaRelation__SWIG_0(int jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TwoCriteriaRelation__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TwoCriteriaRelation__SWIG_1")]
   public static extern global::System.IntPtr new_TwoCriteriaRelation__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_getFirstCriteriaId")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_getFirstCriteriaId")]
   public static extern int TwoCriteriaRelation_getFirstCriteriaId(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_getSecondCriteriaId")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_getSecondCriteriaId")]
   public static extern int TwoCriteriaRelation_getSecondCriteriaId(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_getConstraint")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_getConstraint")]
   public static extern int TwoCriteriaRelation_getConstraint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_isValid")]
   public static extern bool TwoCriteriaRelation_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_isEqual")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_isEqual")]
   public static extern bool TwoCriteriaRelation_isEqual(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_isRespond")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_isRespond")]
   public static extern bool TwoCriteriaRelation_isRespond(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_invert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_invert")]
   public static extern global::System.IntPtr TwoCriteriaRelation_invert(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelation_getInvertConstraint")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelation_getInvertConstraint")]
   public static extern int TwoCriteriaRelation_getInvertConstraint(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_TwoCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_TwoCriteriaRelation")]
   public static extern void delete_TwoCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SimpleCriteriaRelation__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SimpleCriteriaRelation__SWIG_0")]
   public static extern global::System.IntPtr new_SimpleCriteriaRelation__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SimpleCriteriaRelation__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SimpleCriteriaRelation__SWIG_1")]
   public static extern global::System.IntPtr new_SimpleCriteriaRelation__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelation_getCriteriaCount")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelation_getCriteriaCount")]
   public static extern int SimpleCriteriaRelation_getCriteriaCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelation_getTwoCriteriaRelationArray")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelation_getTwoCriteriaRelationArray")]
   public static extern global::System.IntPtr SimpleCriteriaRelation_getTwoCriteriaRelationArray(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelation_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelation_isValid")]
   public static extern bool SimpleCriteriaRelation_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelation_copy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelation_copy")]
   public static extern global::System.IntPtr SimpleCriteriaRelation_copy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SimpleCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_SimpleCriteriaRelation")]
   public static extern void delete_SimpleCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightCriteriaRelation_getCriteriaWeightMap")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightCriteriaRelation_getCriteriaWeightMap")]
   public static extern global::System.IntPtr WeightCriteriaRelation_getCriteriaWeightMap(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightCriteriaRelation_getCriteriaCount")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightCriteriaRelation_getCriteriaCount")]
   public static extern int WeightCriteriaRelation_getCriteriaCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightCriteriaRelation_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightCriteriaRelation_isValid")]
   public static extern bool WeightCriteriaRelation_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightCriteriaRelation_copy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightCriteriaRelation_copy")]
   public static extern global::System.IntPtr WeightCriteriaRelation_copy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_WeightCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_WeightCriteriaRelation")]
   public static extern void delete_WeightCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Node__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Node__SWIG_0")]
   public static extern global::System.IntPtr new_Node__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Node__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Node__SWIG_1")]
   public static extern global::System.IntPtr new_Node__SWIG_1(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_addCriteriaOnNode")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_addCriteriaOnNode")]
   public static extern void Node_addCriteriaOnNode(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_addChildNode")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_addChildNode")]
   public static extern void Node_addChildNode(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_containsCriteria")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_containsCriteria")]
   public static extern bool Node_containsCriteria(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_getChildNodes")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_getChildNodes")]
   public static extern global::System.IntPtr Node_getChildNodes(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_getCriteriaIdSet")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_getCriteriaIdSet")]
   public static extern global::System.IntPtr Node_getCriteriaIdSet(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_getDepth")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_getDepth")]
   public static extern int Node_getDepth(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_setDepth")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_setDepth")]
   public static extern void Node_setDepth(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_find")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_find")]
   public static extern global::System.IntPtr Node_find(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Node_deleteChilds")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Node_deleteChilds")]
   public static extern void Node_deleteChilds(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Node")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Node")]
   public static extern void delete_Node(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SimpleCriteriaRelationUtil")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SimpleCriteriaRelationUtil")]
   public static extern global::System.IntPtr new_SimpleCriteriaRelationUtil(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SimpleCriteriaRelationUtil")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_SimpleCriteriaRelationUtil")]
   public static extern void delete_SimpleCriteriaRelationUtil(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelationUtil_print")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelationUtil_print")]
   public static extern void SimpleCriteriaRelationUtil_print(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelationUtil_toAllCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelationUtil_toAllCriteriaRelation")]
   public static extern global::System.IntPtr SimpleCriteriaRelationUtil_toAllCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelationUtil_toWeightCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelationUtil_toWeightCriteriaRelation")]
   public static extern global::System.IntPtr SimpleCriteriaRelationUtil_toWeightCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SimpleRankingMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SimpleRankingMethod")]
   public static extern global::System.IntPtr new_SimpleRankingMethod(int jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleRankingMethod_getCriteriaWeightMap")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleRankingMethod_getCriteriaWeightMap")]
   public static extern global::System.IntPtr SimpleRankingMethod_getCriteriaWeightMap(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleRankingMethod_getCriteriaCount")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleRankingMethod_getCriteriaCount")]
   public static extern int SimpleRankingMethod_getCriteriaCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleRankingMethod_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleRankingMethod_isValid")]
   public static extern bool SimpleRankingMethod_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleRankingMethod_copy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleRankingMethod_copy")]
   public static extern global::System.IntPtr SimpleRankingMethod_copy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SimpleRankingMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_SimpleRankingMethod")]
   public static extern void delete_SimpleRankingMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_ProportionalMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_ProportionalMethod")]
   public static extern global::System.IntPtr new_ProportionalMethod(int jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ProportionalMethod_getCriteriaCount")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ProportionalMethod_getCriteriaCount")]
   public static extern int ProportionalMethod_getCriteriaCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ProportionalMethod_getCriteriaWeightMap")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ProportionalMethod_getCriteriaWeightMap")]
   public static extern global::System.IntPtr ProportionalMethod_getCriteriaWeightMap(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ProportionalMethod_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ProportionalMethod_isValid")]
   public static extern bool ProportionalMethod_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ProportionalMethod_copy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ProportionalMethod_copy")]
   public static extern global::System.IntPtr ProportionalMethod_copy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_ProportionalMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_ProportionalMethod")]
   public static extern void delete_ProportionalMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SolveStatus__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SolveStatus__SWIG_0")]
   public static extern global::System.IntPtr new_SolveStatus__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SolveStatus__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SolveStatus__SWIG_1")]
   public static extern global::System.IntPtr new_SolveStatus__SWIG_1(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SolveStatus__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SolveStatus__SWIG_2")]
   public static extern global::System.IntPtr new_SolveStatus__SWIG_2(int jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SolveStatus_getStatus")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SolveStatus_getStatus")]
   public static extern int SolveStatus_getStatus(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SolveStatus_getMessage")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SolveStatus_getMessage")]
   public static extern string SolveStatus_getMessage(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SolveStatus_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SolveStatus_toString")]
   public static extern string SolveStatus_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SolveStatus")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_SolveStatus")]
   public static extern void delete_SolveStatus(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionMakingMethod_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_DecisionMakingMethod_solve")]
   public static extern global::System.IntPtr DecisionMakingMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_DecisionMakingMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_DecisionMakingMethod")]
   public static extern void delete_DecisionMakingMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_getMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_getMathModel")]
   public static extern global::System.IntPtr MultiCriteriaMethod_getMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_setMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_setMathModel")]
   public static extern void MultiCriteriaMethod_setMathModel(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_setCriteriaRelation")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_setCriteriaRelation")]
   public static extern void MultiCriteriaMethod_setCriteriaRelation(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_getBestEstimateVector")]
   public static extern global::System.IntPtr MultiCriteriaMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_withSolveProcessLog")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_withSolveProcessLog")]
   public static extern void MultiCriteriaMethod_withSolveProcessLog(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_getProcess")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_getProcess")]
   public static extern global::System.IntPtr MultiCriteriaMethod_getProcess(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiCriteriaMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MultiCriteriaMethod")]
   public static extern void delete_MultiCriteriaMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_OneStepMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_OneStepMethod")]
   public static extern void delete_OneStepMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMethod_makeIteration")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMethod_makeIteration")]
   public static extern global::System.IntPtr MultiStepMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMethod_getIntermediateMethodData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMethod_getIntermediateMethodData")]
   public static extern global::System.IntPtr MultiStepMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiStepMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MultiStepMethod")]
   public static extern void delete_MultiStepMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntermediateMethodData_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntermediateMethodData_toString")]
   public static extern string IntermediateMethodData_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_IntermediateMethodData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_IntermediateMethodData")]
   public static extern void delete_IntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SuccessiveConcessionsIntermediateData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SuccessiveConcessionsIntermediateData")]
   public static extern global::System.IntPtr new_SuccessiveConcessionsIntermediateData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsIntermediateData_getCriteriaThatNeedCedeValue")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsIntermediateData_getCriteriaThatNeedCedeValue")]
   public static extern global::System.IntPtr SuccessiveConcessionsIntermediateData_getCriteriaThatNeedCedeValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsIntermediateData_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsIntermediateData_toString")]
   public static extern string SuccessiveConcessionsIntermediateData_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SuccessiveConcessionsIntermediateData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_SuccessiveConcessionsIntermediateData")]
   public static extern void delete_SuccessiveConcessionsIntermediateData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StrongAlternatives")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StrongAlternatives")]
   public static extern global::System.IntPtr new_StrongAlternatives(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StrongAlternatives_getStrongAlternatives")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StrongAlternatives_getStrongAlternatives")]
   public static extern global::System.IntPtr StrongAlternatives_getStrongAlternatives(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StrongAlternatives_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StrongAlternatives_toString")]
   public static extern string StrongAlternatives_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_StrongAlternatives")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_StrongAlternatives")]
   public static extern void delete_StrongAlternatives(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_DecisionMakerInfo")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_DecisionMakerInfo")]
   public static extern global::System.IntPtr new_DecisionMakerInfo();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_DecisionMakerInfo")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_DecisionMakerInfo")]
   public static extern void delete_DecisionMakerInfo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionMakerInfo_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_DecisionMakerInfo_toString")]
   public static extern string DecisionMakerInfo_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CedeValueInfo__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CedeValueInfo__SWIG_0")]
   public static extern global::System.IntPtr new_CedeValueInfo__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CedeValueInfo__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CedeValueInfo__SWIG_1")]
   public static extern global::System.IntPtr new_CedeValueInfo__SWIG_1(double jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CedeValueInfo_getCedeValue")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CedeValueInfo_getCedeValue")]
   public static extern double CedeValueInfo_getCedeValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CedeValueInfo_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CedeValueInfo_toString")]
   public static extern string CedeValueInfo_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CedeValueInfo")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CedeValueInfo")]
   public static extern void delete_CedeValueInfo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_AlfaBetaInfo__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_AlfaBetaInfo__SWIG_0")]
   public static extern global::System.IntPtr new_AlfaBetaInfo__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_AlfaBetaInfo__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_AlfaBetaInfo__SWIG_1")]
   public static extern global::System.IntPtr new_AlfaBetaInfo__SWIG_1(double jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlfaBetaInfo_getAlfa")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlfaBetaInfo_getAlfa")]
   public static extern double AlfaBetaInfo_getAlfa(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlfaBetaInfo_getBeta")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlfaBetaInfo_getBeta")]
   public static extern double AlfaBetaInfo_getBeta(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlfaBetaInfo_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlfaBetaInfo_isValid")]
   public static extern bool AlfaBetaInfo_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlfaBetaInfo_toString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlfaBetaInfo_toString")]
   public static extern string AlfaBetaInfo_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_AlfaBetaInfo")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_AlfaBetaInfo")]
   public static extern void delete_AlfaBetaInfo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AggregationOperator_getEstimateVectorMark")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AggregationOperator_getEstimateVectorMark")]
   public static extern global::System.IntPtr AggregationOperator_getEstimateVectorMark(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AggregationOperator_getBestValue")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AggregationOperator_getBestValue")]
   public static extern double AggregationOperator_getBestValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AggregationOperator_getBestEstimateVectorNum")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AggregationOperator_getBestEstimateVectorNum")]
   public static extern int AggregationOperator_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AggregationOperator_isNeedNormalizedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AggregationOperator_isNeedNormalizedMathModel")]
   public static extern bool AggregationOperator_isNeedNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_AggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_AggregationOperator")]
   public static extern void delete_AggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AddictiveAggregationOperator_getEstimateVectorMark")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AddictiveAggregationOperator_getEstimateVectorMark")]
   public static extern global::System.IntPtr AddictiveAggregationOperator_getEstimateVectorMark(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AddictiveAggregationOperator_getBestValue")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AddictiveAggregationOperator_getBestValue")]
   public static extern double AddictiveAggregationOperator_getBestValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AddictiveAggregationOperator_getBestEstimateVectorNum")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AddictiveAggregationOperator_getBestEstimateVectorNum")]
   public static extern int AddictiveAggregationOperator_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AddictiveAggregationOperator_isNeedNormalizedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AddictiveAggregationOperator_isNeedNormalizedMathModel")]
   public static extern bool AddictiveAggregationOperator_isNeedNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_AddictiveAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_AddictiveAggregationOperator")]
   public static extern global::System.IntPtr new_AddictiveAggregationOperator();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_AddictiveAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_AddictiveAggregationOperator")]
   public static extern void delete_AddictiveAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_getEstimateVectorMark")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IdealDistanceAggregationOperator_getEstimateVectorMark")]
   public static extern global::System.IntPtr IdealDistanceAggregationOperator_getEstimateVectorMark(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_getBestValue")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IdealDistanceAggregationOperator_getBestValue")]
   public static extern double IdealDistanceAggregationOperator_getBestValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_getBestEstimateVectorNum")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IdealDistanceAggregationOperator_getBestEstimateVectorNum")]
   public static extern int IdealDistanceAggregationOperator_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_isNeedNormalizedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IdealDistanceAggregationOperator_isNeedNormalizedMathModel")]
   public static extern bool IdealDistanceAggregationOperator_isNeedNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IdealDistanceAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_IdealDistanceAggregationOperator")]
   public static extern global::System.IntPtr new_IdealDistanceAggregationOperator();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_IdealDistanceAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_IdealDistanceAggregationOperator")]
   public static extern void delete_IdealDistanceAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_getEstimateVectorMark")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiplicativeAggregationOperator_getEstimateVectorMark")]
   public static extern global::System.IntPtr MultiplicativeAggregationOperator_getEstimateVectorMark(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_getBestValue")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiplicativeAggregationOperator_getBestValue")]
   public static extern double MultiplicativeAggregationOperator_getBestValue(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_getBestEstimateVectorNum")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiplicativeAggregationOperator_getBestEstimateVectorNum")]
   public static extern int MultiplicativeAggregationOperator_getBestEstimateVectorNum(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_isNeedNormalizedMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiplicativeAggregationOperator_isNeedNormalizedMathModel")]
   public static extern bool MultiplicativeAggregationOperator_isNeedNormalizedMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiplicativeAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MultiplicativeAggregationOperator")]
   public static extern global::System.IntPtr new_MultiplicativeAggregationOperator();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiplicativeAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MultiplicativeAggregationOperator")]
   public static extern void delete_MultiplicativeAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMax")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MinMax")]
   public static extern global::System.IntPtr new_MinMax(double jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMax_isValid")]
   public static extern bool MinMax_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_max")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMax_max")]
   public static extern double MinMax_max(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_min")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMax_min")]
   public static extern double MinMax_min(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMax_minMaxDelta")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMax_minMaxDelta")]
   public static extern double MinMax_minMaxDelta(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMax")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MinMax")]
   public static extern void delete_MinMax(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxCriteriaValues")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MinMaxCriteriaValues")]
   public static extern global::System.IntPtr new_MinMaxCriteriaValues(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxCriteriaValues_getValues")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxCriteriaValues_getValues")]
   public static extern global::System.IntPtr MinMaxCriteriaValues_getValues(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMaxCriteriaValues")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MinMaxCriteriaValues")]
   public static extern void delete_MinMaxCriteriaValues(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionType_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionType_execute")]
   public static extern double CriterionType_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionType_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionType_isValid")]
   public static extern bool CriterionType_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriterionType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CriterionType")]
   public static extern void delete_CriterionType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_UsualCriterion_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_UsualCriterion_execute")]
   public static extern double UsualCriterion_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_UsualCriterion_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_UsualCriterion_isValid")]
   public static extern bool UsualCriterion_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_UsualCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_UsualCriterion")]
   public static extern global::System.IntPtr new_UsualCriterion();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_UsualCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_UsualCriterion")]
   public static extern void delete_UsualCriterion(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_QuasiCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_QuasiCriterion")]
   public static extern global::System.IntPtr new_QuasiCriterion(double jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_QuasiCriterion_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_QuasiCriterion_execute")]
   public static extern double QuasiCriterion_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_QuasiCriterion_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_QuasiCriterion_isValid")]
   public static extern bool QuasiCriterion_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_QuasiCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_QuasiCriterion")]
   public static extern void delete_QuasiCriterion(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_VShapeCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_VShapeCriterion")]
   public static extern global::System.IntPtr new_VShapeCriterion(double jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_VShapeCriterion_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_VShapeCriterion_execute")]
   public static extern double VShapeCriterion_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_VShapeCriterion_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_VShapeCriterion_isValid")]
   public static extern bool VShapeCriterion_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_VShapeCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_VShapeCriterion")]
   public static extern void delete_VShapeCriterion(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LevelCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_LevelCriterion")]
   public static extern global::System.IntPtr new_LevelCriterion(double jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LevelCriterion_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LevelCriterion_execute")]
   public static extern double LevelCriterion_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LevelCriterion_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LevelCriterion_isValid")]
   public static extern bool LevelCriterion_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_LevelCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_LevelCriterion")]
   public static extern void delete_LevelCriterion(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LinearCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_LinearCriterion")]
   public static extern global::System.IntPtr new_LinearCriterion(double jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LinearCriterion_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LinearCriterion_execute")]
   public static extern double LinearCriterion_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LinearCriterion_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LinearCriterion_isValid")]
   public static extern bool LinearCriterion_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_LinearCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_LinearCriterion")]
   public static extern void delete_LinearCriterion(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_GaussianCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_GaussianCriterion")]
   public static extern global::System.IntPtr new_GaussianCriterion(double jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_GaussianCriterion_execute")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_GaussianCriterion_execute")]
   public static extern double GaussianCriterion_execute(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_GaussianCriterion_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_GaussianCriterion_isValid")]
   public static extern bool GaussianCriterion_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_GaussianCriterion")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_GaussianCriterion")]
   public static extern void delete_GaussianCriterion(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriterionTypes")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriterionTypes")]
   public static extern global::System.IntPtr new_CriterionTypes(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypes_isValid")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypes_isValid")]
   public static extern bool CriterionTypes_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypes_getCriterions")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypes_getCriterions")]
   public static extern global::System.IntPtr CriterionTypes_getCriterions(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriterionTypes")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CriterionTypes")]
   public static extern void delete_CriterionTypes(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LexicographicOptimization__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_LexicographicOptimization__SWIG_0")]
   public static extern global::System.IntPtr new_LexicographicOptimization__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_LexicographicOptimization__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_LexicographicOptimization__SWIG_1")]
   public static extern global::System.IntPtr new_LexicographicOptimization__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_LexicographicOptimization")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_LexicographicOptimization")]
   public static extern void delete_LexicographicOptimization(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LexicographicOptimization_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LexicographicOptimization_solve")]
   public static extern global::System.IntPtr LexicographicOptimization_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LexicographicOptimization_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LexicographicOptimization_getBestEstimateVector")]
   public static extern global::System.IntPtr LexicographicOptimization_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriteriaAggregationMethod__SWIG_0")]
   public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriteriaAggregationMethod__SWIG_1")]
   public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriteriaAggregationMethod__SWIG_2")]
   public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriteriaAggregationMethod__SWIG_3")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriteriaAggregationMethod__SWIG_3")]
   public static extern global::System.IntPtr new_CriteriaAggregationMethod__SWIG_3(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriteriaAggregationMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CriteriaAggregationMethod")]
   public static extern void delete_CriteriaAggregationMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_setAggregationOperator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaAggregationMethod_setAggregationOperator")]
   public static extern void CriteriaAggregationMethod_setAggregationOperator(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_setNormalizer")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaAggregationMethod_setNormalizer")]
   public static extern void CriteriaAggregationMethod_setNormalizer(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaAggregationMethod_solve")]
   public static extern global::System.IntPtr CriteriaAggregationMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_getEstimateVectorWeight")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaAggregationMethod_getEstimateVectorWeight")]
   public static extern global::System.IntPtr CriteriaAggregationMethod_getEstimateVectorWeight(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaAggregationMethod_getBestEstimateVector")]
   public static extern global::System.IntPtr CriteriaAggregationMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SuccessiveConcessionsMethod__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SuccessiveConcessionsMethod__SWIG_0")]
   public static extern global::System.IntPtr new_SuccessiveConcessionsMethod__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_SuccessiveConcessionsMethod__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_SuccessiveConcessionsMethod__SWIG_1")]
   public static extern global::System.IntPtr new_SuccessiveConcessionsMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_SuccessiveConcessionsMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_SuccessiveConcessionsMethod")]
   public static extern void delete_SuccessiveConcessionsMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsMethod_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsMethod_solve")]
   public static extern global::System.IntPtr SuccessiveConcessionsMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsMethod_makeIteration")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsMethod_makeIteration")]
   public static extern global::System.IntPtr SuccessiveConcessionsMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsMethod_getIntermediateMethodData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsMethod_getIntermediateMethodData")]
   public static extern global::System.IntPtr SuccessiveConcessionsMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsMethod_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsMethod_getBestEstimateVector")]
   public static extern global::System.IntPtr SuccessiveConcessionsMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_ElectreMethod__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_ElectreMethod__SWIG_0")]
   public static extern global::System.IntPtr new_ElectreMethod__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_ElectreMethod__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_ElectreMethod__SWIG_1")]
   public static extern global::System.IntPtr new_ElectreMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_ElectreMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_ElectreMethod")]
   public static extern void delete_ElectreMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ElectreMethod_solve")]
   public static extern global::System.IntPtr ElectreMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_makeIteration")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ElectreMethod_makeIteration")]
   public static extern global::System.IntPtr ElectreMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_getIntermediateMethodData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ElectreMethod_getIntermediateMethodData")]
   public static extern global::System.IntPtr ElectreMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ElectreMethod_getBestEstimateVector")]
   public static extern global::System.IntPtr ElectreMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Smart__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Smart__SWIG_0")]
   public static extern global::System.IntPtr new_Smart__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Smart__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Smart__SWIG_1")]
   public static extern global::System.IntPtr new_Smart__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Smart")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Smart")]
   public static extern void delete_Smart(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_setMinMaxCriteriaValues")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Smart_setMinMaxCriteriaValues")]
   public static extern void Smart_setMinMaxCriteriaValues(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Smart_solve")]
   public static extern global::System.IntPtr Smart_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Smart_getBestEstimateVector")]
   public static extern global::System.IntPtr Smart_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_PrometheeAllVersions__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_PrometheeAllVersions__SWIG_0")]
   public static extern global::System.IntPtr new_PrometheeAllVersions__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_PrometheeAllVersions__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_PrometheeAllVersions__SWIG_1")]
   public static extern global::System.IntPtr new_PrometheeAllVersions__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_PrometheeAllVersions")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_PrometheeAllVersions")]
   public static extern void delete_PrometheeAllVersions(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_PrometheeAllVersions_useMethodVersions")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_PrometheeAllVersions_useMethodVersions")]
   public static extern void PrometheeAllVersions_useMethodVersions(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2, bool jarg3, bool jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_PrometheeAllVersions_setCriterionTypes")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_PrometheeAllVersions_setCriterionTypes")]
   public static extern void PrometheeAllVersions_setCriterionTypes(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_PrometheeAllVersions_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_PrometheeAllVersions_solve")]
   public static extern global::System.IntPtr PrometheeAllVersions_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_PrometheeAllVersions_getBestEstimateVector")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_PrometheeAllVersions_getBestEstimateVector")]
   public static extern global::System.IntPtr PrometheeAllVersions_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Solver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Solver")]
   public static extern global::System.IntPtr new_Solver();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Solver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Solver")]
   public static extern void delete_Solver(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiCriteriaMethodSolver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MultiCriteriaMethodSolver")]
   public static extern global::System.IntPtr new_MultiCriteriaMethodSolver();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiCriteriaMethodSolver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MultiCriteriaMethodSolver")]
   public static extern void delete_MultiCriteriaMethodSolver(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_OneStepMultiCriteriaMethodSolver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_OneStepMultiCriteriaMethodSolver")]
   public static extern global::System.IntPtr new_OneStepMultiCriteriaMethodSolver(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_OneStepMultiCriteriaMethodSolver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_OneStepMultiCriteriaMethodSolver")]
   public static extern void delete_OneStepMultiCriteriaMethodSolver(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMultiCriteriaMethodSolver_addMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMultiCriteriaMethodSolver_addMethod")]
   public static extern void OneStepMultiCriteriaMethodSolver_addMethod(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMultiCriteriaMethodSolver_addMethods")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMultiCriteriaMethodSolver_addMethods")]
   public static extern void OneStepMultiCriteriaMethodSolver_addMethods(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMultiCriteriaMethodSolver_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMultiCriteriaMethodSolver_solve")]
   public static extern global::System.IntPtr OneStepMultiCriteriaMethodSolver_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiStepMultiCriteriaMethodSolver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MultiStepMultiCriteriaMethodSolver")]
   public static extern global::System.IntPtr new_MultiStepMultiCriteriaMethodSolver(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiStepMultiCriteriaMethodSolver")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MultiStepMultiCriteriaMethodSolver")]
   public static extern void delete_MultiStepMultiCriteriaMethodSolver(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_setMethod")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_setMethod")]
   public static extern void MultiStepMultiCriteriaMethodSolver_setMethod(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_getCurrentSolveStatus")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_getCurrentSolveStatus")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_getCurrentSolveStatus(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_getMethodMathModel")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_getMethodMathModel")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_getMethodMathModel(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_solve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_solve")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_makeIteration")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_makeIteration")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_getMethodData")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_getMethodData")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_getMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TaskStep__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TaskStep__SWIG_0")]
   public static extern global::System.IntPtr new_TaskStep__SWIG_0(string jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TaskStep__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TaskStep__SWIG_1")]
   public static extern global::System.IntPtr new_TaskStep__SWIG_1(string jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskStep_TextType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskStep_TextType")]
   public static extern global::System.IntPtr TaskStep_TextType(string jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskStep_TablePartType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskStep_TablePartType")]
   public static extern global::System.IntPtr TaskStep_TablePartType(string jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskStep_EndTableType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskStep_EndTableType")]
   public static extern global::System.IntPtr TaskStep_EndTableType();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskStep_StepType")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskStep_StepType")]
   public static extern string TaskStep_StepType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskStep_AsString")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskStep_AsString")]
   public static extern string TaskStep_AsString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_TaskStep")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_TaskStep")]
   public static extern void delete_TaskStep(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Marks__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Marks__SWIG_0")]
   public static extern global::System.IntPtr new_Marks__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Marks__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Marks__SWIG_1")]
   public static extern global::System.IntPtr new_Marks__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Clear")]
   public static extern void Marks_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Add")]
   public static extern void Marks_Add(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_size")]
   public static extern uint Marks_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_empty")]
   public static extern bool Marks_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_capacity")]
   public static extern uint Marks_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_reserve")]
   public static extern void Marks_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Marks__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Marks__SWIG_2")]
   public static extern global::System.IntPtr new_Marks__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_getitemcopy")]
   public static extern double Marks_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_getitem")]
   public static extern double Marks_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_setitem")]
   public static extern void Marks_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, double jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_AddRange")]
   public static extern void Marks_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_GetRange")]
   public static extern global::System.IntPtr Marks_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Insert")]
   public static extern void Marks_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, double jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_InsertRange")]
   public static extern void Marks_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_RemoveAt")]
   public static extern void Marks_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_RemoveRange")]
   public static extern void Marks_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Repeat")]
   public static extern global::System.IntPtr Marks_Repeat(double jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Reverse__SWIG_0")]
   public static extern void Marks_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Reverse__SWIG_1")]
   public static extern void Marks_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_SetRange")]
   public static extern void Marks_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Contains")]
   public static extern bool Marks_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_IndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_IndexOf")]
   public static extern int Marks_IndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_LastIndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_LastIndexOf")]
   public static extern int Marks_LastIndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Marks_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Marks_Remove")]
   public static extern bool Marks_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Marks")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Marks")]
   public static extern void delete_Marks(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IntList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_IntList__SWIG_0")]
   public static extern global::System.IntPtr new_IntList__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IntList__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_IntList__SWIG_1")]
   public static extern global::System.IntPtr new_IntList__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Clear")]
   public static extern void IntList_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Add")]
   public static extern void IntList_Add(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_size")]
   public static extern uint IntList_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_empty")]
   public static extern bool IntList_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_capacity")]
   public static extern uint IntList_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_reserve")]
   public static extern void IntList_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IntList__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_IntList__SWIG_2")]
   public static extern global::System.IntPtr new_IntList__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_getitemcopy")]
   public static extern int IntList_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_getitem")]
   public static extern int IntList_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_setitem")]
   public static extern void IntList_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_AddRange")]
   public static extern void IntList_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_GetRange")]
   public static extern global::System.IntPtr IntList_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Insert")]
   public static extern void IntList_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_InsertRange")]
   public static extern void IntList_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_RemoveAt")]
   public static extern void IntList_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_RemoveRange")]
   public static extern void IntList_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Repeat")]
   public static extern global::System.IntPtr IntList_Repeat(int jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Reverse__SWIG_0")]
   public static extern void IntList_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Reverse__SWIG_1")]
   public static extern void IntList_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_SetRange")]
   public static extern void IntList_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Contains")]
   public static extern bool IntList_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_IndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_IndexOf")]
   public static extern int IntList_IndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_LastIndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_LastIndexOf")]
   public static extern int IntList_LastIndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntList_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntList_Remove")]
   public static extern bool IntList_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_IntList")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_IntList")]
   public static extern void delete_IntList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Criterias__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Criterias__SWIG_0")]
   public static extern global::System.IntPtr new_Criterias__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Criterias__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Criterias__SWIG_1")]
   public static extern global::System.IntPtr new_Criterias__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_Clear")]
   public static extern void Criterias_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_Add")]
   public static extern void Criterias_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_size")]
   public static extern uint Criterias_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_empty")]
   public static extern bool Criterias_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_capacity")]
   public static extern uint Criterias_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_reserve")]
   public static extern void Criterias_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_Criterias__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_Criterias__SWIG_2")]
   public static extern global::System.IntPtr new_Criterias__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_getitemcopy")]
   public static extern global::System.IntPtr Criterias_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_getitem")]
   public static extern global::System.IntPtr Criterias_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_setitem")]
   public static extern void Criterias_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_AddRange")]
   public static extern void Criterias_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_GetRange")]
   public static extern global::System.IntPtr Criterias_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_Insert")]
   public static extern void Criterias_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_InsertRange")]
   public static extern void Criterias_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_RemoveAt")]
   public static extern void Criterias_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_RemoveRange")]
   public static extern void Criterias_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_Repeat")]
   public static extern global::System.IntPtr Criterias_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_Reverse__SWIG_0")]
   public static extern void Criterias_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_Reverse__SWIG_1")]
   public static extern void Criterias_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Criterias_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Criterias_SetRange")]
   public static extern void Criterias_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_Criterias")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_Criterias")]
   public static extern void delete_Criterias(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_EstimateVectors__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_EstimateVectors__SWIG_0")]
   public static extern global::System.IntPtr new_EstimateVectors__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_EstimateVectors__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_EstimateVectors__SWIG_1")]
   public static extern global::System.IntPtr new_EstimateVectors__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_Clear")]
   public static extern void EstimateVectors_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_Add")]
   public static extern void EstimateVectors_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_size")]
   public static extern uint EstimateVectors_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_empty")]
   public static extern bool EstimateVectors_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_capacity")]
   public static extern uint EstimateVectors_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_reserve")]
   public static extern void EstimateVectors_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_EstimateVectors__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_EstimateVectors__SWIG_2")]
   public static extern global::System.IntPtr new_EstimateVectors__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_getitemcopy")]
   public static extern global::System.IntPtr EstimateVectors_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_getitem")]
   public static extern global::System.IntPtr EstimateVectors_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_setitem")]
   public static extern void EstimateVectors_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_AddRange")]
   public static extern void EstimateVectors_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_GetRange")]
   public static extern global::System.IntPtr EstimateVectors_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_Insert")]
   public static extern void EstimateVectors_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_InsertRange")]
   public static extern void EstimateVectors_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_RemoveAt")]
   public static extern void EstimateVectors_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_RemoveRange")]
   public static extern void EstimateVectors_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_Repeat")]
   public static extern global::System.IntPtr EstimateVectors_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_Reverse__SWIG_0")]
   public static extern void EstimateVectors_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_Reverse__SWIG_1")]
   public static extern void EstimateVectors_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_EstimateVectors_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_EstimateVectors_SetRange")]
   public static extern void EstimateVectors_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_EstimateVectors")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_EstimateVectors")]
   public static extern void delete_EstimateVectors(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TwoCriteriaRelationList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TwoCriteriaRelationList__SWIG_0")]
   public static extern global::System.IntPtr new_TwoCriteriaRelationList__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TwoCriteriaRelationList__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TwoCriteriaRelationList__SWIG_1")]
   public static extern global::System.IntPtr new_TwoCriteriaRelationList__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_Clear")]
   public static extern void TwoCriteriaRelationList_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_Add")]
   public static extern void TwoCriteriaRelationList_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_size")]
   public static extern uint TwoCriteriaRelationList_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_empty")]
   public static extern bool TwoCriteriaRelationList_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_capacity")]
   public static extern uint TwoCriteriaRelationList_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_reserve")]
   public static extern void TwoCriteriaRelationList_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TwoCriteriaRelationList__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TwoCriteriaRelationList__SWIG_2")]
   public static extern global::System.IntPtr new_TwoCriteriaRelationList__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_getitemcopy")]
   public static extern global::System.IntPtr TwoCriteriaRelationList_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_getitem")]
   public static extern global::System.IntPtr TwoCriteriaRelationList_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_setitem")]
   public static extern void TwoCriteriaRelationList_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_AddRange")]
   public static extern void TwoCriteriaRelationList_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_GetRange")]
   public static extern global::System.IntPtr TwoCriteriaRelationList_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_Insert")]
   public static extern void TwoCriteriaRelationList_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_InsertRange")]
   public static extern void TwoCriteriaRelationList_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_RemoveAt")]
   public static extern void TwoCriteriaRelationList_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_RemoveRange")]
   public static extern void TwoCriteriaRelationList_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_Repeat")]
   public static extern global::System.IntPtr TwoCriteriaRelationList_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_Reverse__SWIG_0")]
   public static extern void TwoCriteriaRelationList_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_Reverse__SWIG_1")]
   public static extern void TwoCriteriaRelationList_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TwoCriteriaRelationList_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TwoCriteriaRelationList_SetRange")]
   public static extern void TwoCriteriaRelationList_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_TwoCriteriaRelationList")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_TwoCriteriaRelationList")]
   public static extern void delete_TwoCriteriaRelationList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_WeightMap__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_WeightMap__SWIG_0")]
   public static extern global::System.IntPtr new_WeightMap__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_WeightMap__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_WeightMap__SWIG_1")]
   public static extern global::System.IntPtr new_WeightMap__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_size")]
   public static extern uint WeightMap_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_empty")]
   public static extern bool WeightMap_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_Clear")]
   public static extern void WeightMap_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_getitem")]
   public static extern double WeightMap_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_setitem")]
   public static extern void WeightMap_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, double jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_ContainsKey")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_ContainsKey")]
   public static extern bool WeightMap_ContainsKey(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_Add")]
   public static extern void WeightMap_Add(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, double jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_Remove")]
   public static extern bool WeightMap_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_create_iterator_begin")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_create_iterator_begin")]
   public static extern global::System.IntPtr WeightMap_create_iterator_begin(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_get_next_key")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_get_next_key")]
   public static extern int WeightMap_get_next_key(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightMap_destroy_iterator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightMap_destroy_iterator")]
   public static extern void WeightMap_destroy_iterator(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_WeightMap")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_WeightMap")]
   public static extern void delete_WeightMap(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_NodesSet__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_NodesSet__SWIG_0")]
   public static extern global::System.IntPtr new_NodesSet__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_NodesSet__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_NodesSet__SWIG_1")]
   public static extern global::System.IntPtr new_NodesSet__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_size")]
   public static extern uint NodesSet_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_empty")]
   public static extern bool NodesSet_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_Clear")]
   public static extern void NodesSet_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_Add")]
   public static extern bool NodesSet_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_Contains")]
   public static extern bool NodesSet_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_Remove")]
   public static extern bool NodesSet_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_getitem")]
   public static extern global::System.IntPtr NodesSet_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_create_iterator_begin")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_create_iterator_begin")]
   public static extern global::System.IntPtr NodesSet_create_iterator_begin(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_get_next")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_get_next")]
   public static extern global::System.IntPtr NodesSet_get_next(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_NodesSet_destroy_iterator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_NodesSet_destroy_iterator")]
   public static extern void NodesSet_destroy_iterator(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_NodesSet")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_NodesSet")]
   public static extern void delete_NodesSet(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IntSet__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_IntSet__SWIG_0")]
   public static extern global::System.IntPtr new_IntSet__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_IntSet__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_IntSet__SWIG_1")]
   public static extern global::System.IntPtr new_IntSet__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_size")]
   public static extern uint IntSet_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_empty")]
   public static extern bool IntSet_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_Clear")]
   public static extern void IntSet_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_Add")]
   public static extern bool IntSet_Add(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_Contains")]
   public static extern bool IntSet_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_Remove")]
   public static extern bool IntSet_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_getitem")]
   public static extern int IntSet_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_create_iterator_begin")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_create_iterator_begin")]
   public static extern global::System.IntPtr IntSet_create_iterator_begin(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_get_next")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_get_next")]
   public static extern int IntSet_get_next(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IntSet_destroy_iterator")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IntSet_destroy_iterator")]
   public static extern void IntSet_destroy_iterator(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_IntSet")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_IntSet")]
   public static extern void delete_IntSet(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiMethodResult__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MultiMethodResult__SWIG_0")]
   public static extern global::System.IntPtr new_MultiMethodResult__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiMethodResult__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MultiMethodResult__SWIG_1")]
   public static extern global::System.IntPtr new_MultiMethodResult__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MultiMethodResult__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MultiMethodResult__SWIG_2")]
   public static extern global::System.IntPtr new_MultiMethodResult__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiMethodResult_first_set")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiMethodResult_first_set")]
   public static extern void MultiMethodResult_first_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiMethodResult_first_get")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiMethodResult_first_get")]
   public static extern global::System.IntPtr MultiMethodResult_first_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiMethodResult_second_set")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiMethodResult_second_set")]
   public static extern void MultiMethodResult_second_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiMethodResult_second_get")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiMethodResult_second_get")]
   public static extern global::System.IntPtr MultiMethodResult_second_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MultiMethodResult")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MultiMethodResult")]
   public static extern void delete_MultiMethodResult(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MethodsResults__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MethodsResults__SWIG_0")]
   public static extern global::System.IntPtr new_MethodsResults__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MethodsResults__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MethodsResults__SWIG_1")]
   public static extern global::System.IntPtr new_MethodsResults__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_Clear")]
   public static extern void MethodsResults_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_Add")]
   public static extern void MethodsResults_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_size")]
   public static extern uint MethodsResults_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_empty")]
   public static extern bool MethodsResults_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_capacity")]
   public static extern uint MethodsResults_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_reserve")]
   public static extern void MethodsResults_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MethodsResults__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MethodsResults__SWIG_2")]
   public static extern global::System.IntPtr new_MethodsResults__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_getitemcopy")]
   public static extern global::System.IntPtr MethodsResults_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_getitem")]
   public static extern global::System.IntPtr MethodsResults_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_setitem")]
   public static extern void MethodsResults_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_AddRange")]
   public static extern void MethodsResults_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_GetRange")]
   public static extern global::System.IntPtr MethodsResults_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_Insert")]
   public static extern void MethodsResults_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_InsertRange")]
   public static extern void MethodsResults_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_RemoveAt")]
   public static extern void MethodsResults_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_RemoveRange")]
   public static extern void MethodsResults_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_Repeat")]
   public static extern global::System.IntPtr MethodsResults_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_Reverse__SWIG_0")]
   public static extern void MethodsResults_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_Reverse__SWIG_1")]
   public static extern void MethodsResults_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodsResults_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodsResults_SetRange")]
   public static extern void MethodsResults_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MethodsResults")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MethodsResults")]
   public static extern void delete_MethodsResults(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MethodResult__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MethodResult__SWIG_0")]
   public static extern global::System.IntPtr new_MethodResult__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MethodResult__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MethodResult__SWIG_1")]
   public static extern global::System.IntPtr new_MethodResult__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MethodResult__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MethodResult__SWIG_2")]
   public static extern global::System.IntPtr new_MethodResult__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodResult_first_set")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodResult_first_set")]
   public static extern void MethodResult_first_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodResult_first_get")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodResult_first_get")]
   public static extern global::System.IntPtr MethodResult_first_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodResult_second_set")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodResult_second_set")]
   public static extern void MethodResult_second_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MethodResult_second_get")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MethodResult_second_get")]
   public static extern global::System.IntPtr MethodResult_second_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MethodResult")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MethodResult")]
   public static extern void delete_MethodResult(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_push_front")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_push_front")]
   public static extern void OneStepMethods_push_front(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_push_back")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_push_back")]
   public static extern void OneStepMethods_push_back(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_RemoveFirst")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_RemoveFirst")]
   public static extern void OneStepMethods_RemoveFirst(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_RemoveLast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_RemoveLast")]
   public static extern void OneStepMethods_RemoveLast(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_size")]
   public static extern uint OneStepMethods_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_Clear")]
   public static extern void OneStepMethods_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_getItem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_getItem")]
   public static extern global::System.IntPtr OneStepMethods_getItem(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_setItem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_setItem")]
   public static extern void OneStepMethods_setItem(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_getFirstIter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_getFirstIter")]
   public static extern global::System.IntPtr OneStepMethods_getFirstIter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_getLastIter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_getLastIter")]
   public static extern global::System.IntPtr OneStepMethods_getLastIter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_getNextIter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_getNextIter")]
   public static extern global::System.IntPtr OneStepMethods_getNextIter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_getPrevIter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_getPrevIter")]
   public static extern global::System.IntPtr OneStepMethods_getPrevIter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_insertNode")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_insertNode")]
   public static extern global::System.IntPtr OneStepMethods_insertNode(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_eraseIter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_eraseIter")]
   public static extern void OneStepMethods_eraseIter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_deleteIter")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_deleteIter")]
   public static extern void OneStepMethods_deleteIter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_equals")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_equals")]
   public static extern bool OneStepMethods_equals(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2, global::System.IntPtr jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_Contains")]
   public static extern bool OneStepMethods_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_Remove")]
   public static extern bool OneStepMethods_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethods_find")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethods_find")]
   public static extern global::System.IntPtr OneStepMethods_find(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_OneStepMethods")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_OneStepMethods")]
   public static extern global::System.IntPtr new_OneStepMethods();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_OneStepMethods")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_OneStepMethods")]
   public static extern void delete_OneStepMethods(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TaskProcess__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TaskProcess__SWIG_0")]
   public static extern global::System.IntPtr new_TaskProcess__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TaskProcess__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TaskProcess__SWIG_1")]
   public static extern global::System.IntPtr new_TaskProcess__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Clear")]
   public static extern void TaskProcess_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Add")]
   public static extern void TaskProcess_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_size")]
   public static extern uint TaskProcess_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_empty")]
   public static extern bool TaskProcess_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_capacity")]
   public static extern uint TaskProcess_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_reserve")]
   public static extern void TaskProcess_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_TaskProcess__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_TaskProcess__SWIG_2")]
   public static extern global::System.IntPtr new_TaskProcess__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_getitemcopy")]
   public static extern global::System.IntPtr TaskProcess_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_getitem")]
   public static extern global::System.IntPtr TaskProcess_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_setitem")]
   public static extern void TaskProcess_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_AddRange")]
   public static extern void TaskProcess_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_GetRange")]
   public static extern global::System.IntPtr TaskProcess_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Insert")]
   public static extern void TaskProcess_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_InsertRange")]
   public static extern void TaskProcess_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_RemoveAt")]
   public static extern void TaskProcess_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_RemoveRange")]
   public static extern void TaskProcess_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Repeat")]
   public static extern global::System.IntPtr TaskProcess_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Reverse__SWIG_0")]
   public static extern void TaskProcess_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Reverse__SWIG_1")]
   public static extern void TaskProcess_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_SetRange")]
   public static extern void TaskProcess_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Contains")]
   public static extern bool TaskProcess_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_IndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_IndexOf")]
   public static extern int TaskProcess_IndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_LastIndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_LastIndexOf")]
   public static extern int TaskProcess_LastIndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_TaskProcess_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_TaskProcess_Remove")]
   public static extern bool TaskProcess_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_TaskProcess")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_TaskProcess")]
   public static extern void delete_TaskProcess(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StringList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StringList__SWIG_0")]
   public static extern global::System.IntPtr new_StringList__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StringList__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StringList__SWIG_1")]
   public static extern global::System.IntPtr new_StringList__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Clear")]
   public static extern void StringList_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Add")]
   public static extern void StringList_Add(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_size")]
   public static extern uint StringList_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_empty")]
   public static extern bool StringList_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_capacity")]
   public static extern uint StringList_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_reserve")]
   public static extern void StringList_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StringList__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StringList__SWIG_2")]
   public static extern global::System.IntPtr new_StringList__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_getitemcopy")]
   public static extern string StringList_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_getitem")]
   public static extern string StringList_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_setitem")]
   public static extern void StringList_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, string jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_AddRange")]
   public static extern void StringList_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_GetRange")]
   public static extern global::System.IntPtr StringList_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Insert")]
   public static extern void StringList_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, string jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_InsertRange")]
   public static extern void StringList_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_RemoveAt")]
   public static extern void StringList_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_RemoveRange")]
   public static extern void StringList_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Repeat")]
   public static extern global::System.IntPtr StringList_Repeat(string jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Reverse__SWIG_0")]
   public static extern void StringList_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Reverse__SWIG_1")]
   public static extern void StringList_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_SetRange")]
   public static extern void StringList_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Contains")]
   public static extern bool StringList_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_IndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_IndexOf")]
   public static extern int StringList_IndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_LastIndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_LastIndexOf")]
   public static extern int StringList_LastIndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringList_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringList_Remove")]
   public static extern bool StringList_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_StringList")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_StringList")]
   public static extern void delete_StringList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StringTable__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StringTable__SWIG_0")]
   public static extern global::System.IntPtr new_StringTable__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StringTable__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StringTable__SWIG_1")]
   public static extern global::System.IntPtr new_StringTable__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_Clear")]
   public static extern void StringTable_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_Add")]
   public static extern void StringTable_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_size")]
   public static extern uint StringTable_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_empty")]
   public static extern bool StringTable_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_capacity")]
   public static extern uint StringTable_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_reserve")]
   public static extern void StringTable_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_StringTable__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_StringTable__SWIG_2")]
   public static extern global::System.IntPtr new_StringTable__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_getitemcopy")]
   public static extern global::System.IntPtr StringTable_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_getitem")]
   public static extern global::System.IntPtr StringTable_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_setitem")]
   public static extern void StringTable_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_AddRange")]
   public static extern void StringTable_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_GetRange")]
   public static extern global::System.IntPtr StringTable_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_Insert")]
   public static extern void StringTable_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_InsertRange")]
   public static extern void StringTable_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_RemoveAt")]
   public static extern void StringTable_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_RemoveRange")]
   public static extern void StringTable_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_Repeat")]
   public static extern global::System.IntPtr StringTable_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_Reverse__SWIG_0")]
   public static extern void StringTable_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_Reverse__SWIG_1")]
   public static extern void StringTable_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StringTable_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StringTable_SetRange")]
   public static extern void StringTable_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_StringTable")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_StringTable")]
   public static extern void delete_StringTable(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxValues__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MinMaxValues__SWIG_0")]
   public static extern global::System.IntPtr new_MinMaxValues__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxValues__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MinMaxValues__SWIG_1")]
   public static extern global::System.IntPtr new_MinMaxValues__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_Clear")]
   public static extern void MinMaxValues_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_Add")]
   public static extern void MinMaxValues_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_size")]
   public static extern uint MinMaxValues_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_empty")]
   public static extern bool MinMaxValues_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_capacity")]
   public static extern uint MinMaxValues_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_reserve")]
   public static extern void MinMaxValues_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_MinMaxValues__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_MinMaxValues__SWIG_2")]
   public static extern global::System.IntPtr new_MinMaxValues__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_getitemcopy")]
   public static extern global::System.IntPtr MinMaxValues_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_getitem")]
   public static extern global::System.IntPtr MinMaxValues_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_setitem")]
   public static extern void MinMaxValues_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_AddRange")]
   public static extern void MinMaxValues_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_GetRange")]
   public static extern global::System.IntPtr MinMaxValues_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_Insert")]
   public static extern void MinMaxValues_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_InsertRange")]
   public static extern void MinMaxValues_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_RemoveAt")]
   public static extern void MinMaxValues_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_RemoveRange")]
   public static extern void MinMaxValues_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_Repeat")]
   public static extern global::System.IntPtr MinMaxValues_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_Reverse__SWIG_0")]
   public static extern void MinMaxValues_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_Reverse__SWIG_1")]
   public static extern void MinMaxValues_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxValues_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxValues_SetRange")]
   public static extern void MinMaxValues_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_MinMaxValues")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_MinMaxValues")]
   public static extern void delete_MinMaxValues(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriterionTypeList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriterionTypeList__SWIG_0")]
   public static extern global::System.IntPtr new_CriterionTypeList__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriterionTypeList__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriterionTypeList__SWIG_1")]
   public static extern global::System.IntPtr new_CriterionTypeList__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Clear")]
   public static extern void CriterionTypeList_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Add")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Add")]
   public static extern void CriterionTypeList_Add(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_size")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_size")]
   public static extern uint CriterionTypeList_size(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_empty")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_empty")]
   public static extern bool CriterionTypeList_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_capacity")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_capacity")]
   public static extern uint CriterionTypeList_capacity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_reserve")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_reserve")]
   public static extern void CriterionTypeList_reserve(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_new_CriterionTypeList__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_new_CriterionTypeList__SWIG_2")]
   public static extern global::System.IntPtr new_CriterionTypeList__SWIG_2(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_getitemcopy")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_getitemcopy")]
   public static extern global::System.IntPtr CriterionTypeList_getitemcopy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_getitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_getitem")]
   public static extern global::System.IntPtr CriterionTypeList_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_setitem")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_setitem")]
   public static extern void CriterionTypeList_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_AddRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_AddRange")]
   public static extern void CriterionTypeList_AddRange(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_GetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_GetRange")]
   public static extern global::System.IntPtr CriterionTypeList_GetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Insert")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Insert")]
   public static extern void CriterionTypeList_Insert(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_InsertRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_InsertRange")]
   public static extern void CriterionTypeList_InsertRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_RemoveAt")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_RemoveAt")]
   public static extern void CriterionTypeList_RemoveAt(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_RemoveRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_RemoveRange")]
   public static extern void CriterionTypeList_RemoveRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Repeat")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Repeat")]
   public static extern global::System.IntPtr CriterionTypeList_Repeat(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Reverse__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Reverse__SWIG_0")]
   public static extern void CriterionTypeList_Reverse__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Reverse__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Reverse__SWIG_1")]
   public static extern void CriterionTypeList_Reverse__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_SetRange")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_SetRange")]
   public static extern void CriterionTypeList_SetRange(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Contains")]
   public static extern bool CriterionTypeList_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_IndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_IndexOf")]
   public static extern int CriterionTypeList_IndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_LastIndexOf")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_LastIndexOf")]
   public static extern int CriterionTypeList_LastIndexOf(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriterionTypeList_Remove")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriterionTypeList_Remove")]
   public static extern bool CriterionTypeList_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_delete_CriterionTypeList")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_delete_CriterionTypeList")]
   public static extern void delete_CriterionTypeList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlternativeUnifier_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlternativeUnifier_SWIGUpcast")]
   public static extern global::System.IntPtr AlternativeUnifier_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MinMaxNormalizer_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MinMaxNormalizer_SWIGUpcast")]
   public static extern global::System.IntPtr MinMaxNormalizer_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AllCriteriaRelation_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AllCriteriaRelation_SWIGUpcast")]
   public static extern global::System.IntPtr AllCriteriaRelation_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleCriteriaRelation_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleCriteriaRelation_SWIGUpcast")]
   public static extern global::System.IntPtr SimpleCriteriaRelation_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_WeightCriteriaRelation_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_WeightCriteriaRelation_SWIGUpcast")]
   public static extern global::System.IntPtr WeightCriteriaRelation_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SimpleRankingMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SimpleRankingMethod_SWIGUpcast")]
   public static extern global::System.IntPtr SimpleRankingMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ProportionalMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ProportionalMethod_SWIGUpcast")]
   public static extern global::System.IntPtr ProportionalMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethod_SWIGUpcast")]
   public static extern global::System.IntPtr MultiCriteriaMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMethod_SWIGUpcast")]
   public static extern global::System.IntPtr OneStepMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMethod_SWIGUpcast")]
   public static extern global::System.IntPtr MultiStepMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsIntermediateData_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsIntermediateData_SWIGUpcast")]
   public static extern global::System.IntPtr SuccessiveConcessionsIntermediateData_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_StrongAlternatives_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_StrongAlternatives_SWIGUpcast")]
   public static extern global::System.IntPtr StrongAlternatives_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CedeValueInfo_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CedeValueInfo_SWIGUpcast")]
   public static extern global::System.IntPtr CedeValueInfo_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AlfaBetaInfo_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AlfaBetaInfo_SWIGUpcast")]
   public static extern global::System.IntPtr AlfaBetaInfo_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_AddictiveAggregationOperator_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_AddictiveAggregationOperator_SWIGUpcast")]
   public static extern global::System.IntPtr AddictiveAggregationOperator_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_IdealDistanceAggregationOperator_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_IdealDistanceAggregationOperator_SWIGUpcast")]
   public static extern global::System.IntPtr IdealDistanceAggregationOperator_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiplicativeAggregationOperator_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiplicativeAggregationOperator_SWIGUpcast")]
   public static extern global::System.IntPtr MultiplicativeAggregationOperator_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_UsualCriterion_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_UsualCriterion_SWIGUpcast")]
   public static extern global::System.IntPtr UsualCriterion_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_QuasiCriterion_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_QuasiCriterion_SWIGUpcast")]
   public static extern global::System.IntPtr QuasiCriterion_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_VShapeCriterion_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_VShapeCriterion_SWIGUpcast")]
   public static extern global::System.IntPtr VShapeCriterion_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LevelCriterion_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LevelCriterion_SWIGUpcast")]
   public static extern global::System.IntPtr LevelCriterion_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LinearCriterion_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LinearCriterion_SWIGUpcast")]
   public static extern global::System.IntPtr LinearCriterion_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_GaussianCriterion_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_GaussianCriterion_SWIGUpcast")]
   public static extern global::System.IntPtr GaussianCriterion_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_LexicographicOptimization_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_LexicographicOptimization_SWIGUpcast")]
   public static extern global::System.IntPtr LexicographicOptimization_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_CriteriaAggregationMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_CriteriaAggregationMethod_SWIGUpcast")]
   public static extern global::System.IntPtr CriteriaAggregationMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_SuccessiveConcessionsMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_SuccessiveConcessionsMethod_SWIGUpcast")]
   public static extern global::System.IntPtr SuccessiveConcessionsMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_ElectreMethod_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_ElectreMethod_SWIGUpcast")]
   public static extern global::System.IntPtr ElectreMethod_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_Smart_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_Smart_SWIGUpcast")]
   public static extern global::System.IntPtr Smart_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_PrometheeAllVersions_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_PrometheeAllVersions_SWIGUpcast")]
   public static extern global::System.IntPtr PrometheeAllVersions_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaMethodSolver_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiCriteriaMethodSolver_SWIGUpcast")]
   public static extern global::System.IntPtr MultiCriteriaMethodSolver_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_OneStepMultiCriteriaMethodSolver_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_OneStepMultiCriteriaMethodSolver_SWIGUpcast")]
   public static extern global::System.IntPtr OneStepMultiCriteriaMethodSolver_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiStepMultiCriteriaMethodSolver_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_DecisionWrapperCsharp_MultiStepMultiCriteriaMethodSolver_SWIGUpcast")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_SWIGUpcast(global::System.IntPtr jarg1);
+}
+
 }

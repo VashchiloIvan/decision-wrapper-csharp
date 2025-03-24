@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class Criterias : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IEnumerable<Criteria>
  {
@@ -343,5 +344,7 @@ public class Criterias : global::System.IDisposable, global::System.Collections.
     libdesPINVOKE.Criterias_SetRange(swigCPtr, index, Criterias.getCPtr(values));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
+
+}
 
 }

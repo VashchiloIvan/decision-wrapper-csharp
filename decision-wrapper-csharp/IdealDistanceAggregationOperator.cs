@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class IdealDistanceAggregationOperator : AggregationOperator {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -69,5 +70,7 @@ public class IdealDistanceAggregationOperator : AggregationOperator {
 
   public IdealDistanceAggregationOperator() : this(libdesPINVOKE.new_IdealDistanceAggregationOperator(), true) {
   }
+
+}
 
 }

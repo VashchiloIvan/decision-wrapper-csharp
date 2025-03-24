@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class UsualCriterion : CriterionType {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -58,5 +59,7 @@ public class UsualCriterion : CriterionType {
 
   public UsualCriterion() : this(libdesPINVOKE.new_UsualCriterion(), true) {
   }
+
+}
 
 }

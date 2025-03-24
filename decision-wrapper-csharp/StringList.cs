@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class StringList : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IList<string>
  {
@@ -367,5 +368,7 @@ public class StringList : global::System.IDisposable, global::System.Collections
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
     return ret;
   }
+
+}
 
 }

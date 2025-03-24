@@ -8,6 +8,9 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class libdes {
+}
+
 }

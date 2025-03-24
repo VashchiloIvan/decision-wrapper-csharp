@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class LexicographicOptimization : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -62,5 +63,7 @@ public class LexicographicOptimization : OneStepMethod {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.LexicographicOptimization_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

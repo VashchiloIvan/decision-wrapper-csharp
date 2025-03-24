@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class IntList : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IList<int>
  {
@@ -362,5 +363,7 @@ public class IntList : global::System.IDisposable, global::System.Collections.IE
     bool ret = libdesPINVOKE.IntList_Remove(swigCPtr, value);
     return ret;
   }
+
+}
 
 }

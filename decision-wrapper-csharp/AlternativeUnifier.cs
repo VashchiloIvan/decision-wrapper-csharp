@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class AlternativeUnifier : Unifier {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -54,5 +55,7 @@ public class AlternativeUnifier : Unifier {
 
   public AlternativeUnifier() : this(libdesPINVOKE.new_AlternativeUnifier(), true) {
   }
+
+}
 
 }

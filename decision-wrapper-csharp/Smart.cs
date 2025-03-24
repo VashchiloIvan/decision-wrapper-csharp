@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class Smart : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -67,5 +68,7 @@ public class Smart : OneStepMethod {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.Smart_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class IntermediateMethodData : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -60,5 +61,7 @@ public class IntermediateMethodData : global::System.IDisposable {
     string ret = libdesPINVOKE.IntermediateMethodData_toString(swigCPtr);
     return ret;
   }
+
+}
 
 }

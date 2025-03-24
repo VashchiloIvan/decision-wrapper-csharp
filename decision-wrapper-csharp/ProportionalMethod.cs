@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class ProportionalMethod : WeightCriteriaRelation {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -70,5 +71,7 @@ public class ProportionalMethod : WeightCriteriaRelation {
     CriteriaRelation ret = (cPtr == global::System.IntPtr.Zero) ? null : new CriteriaRelation(cPtr, false);
     return ret;
   }
+
+}
 
 }

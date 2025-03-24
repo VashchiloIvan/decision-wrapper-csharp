@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class SuccessiveConcessionsIntermediateData : IntermediateMethodData {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -59,5 +60,7 @@ public class SuccessiveConcessionsIntermediateData : IntermediateMethodData {
     string ret = libdesPINVOKE.SuccessiveConcessionsIntermediateData_toString(swigCPtr);
     return ret;
   }
+
+}
 
 }

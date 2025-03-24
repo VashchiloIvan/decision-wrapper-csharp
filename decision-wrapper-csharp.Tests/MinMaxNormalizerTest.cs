@@ -1,3 +1,4 @@
+using DecisionWrapperCsharp;
 using NUnit.Framework;
 
 public class MinMaxNormalizerTests

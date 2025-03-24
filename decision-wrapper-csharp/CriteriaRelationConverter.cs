@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class CriteriaRelationConverter : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -91,5 +92,7 @@ public class CriteriaRelationConverter : global::System.IDisposable {
     WeightCriteriaRelation ret = (cPtr == global::System.IntPtr.Zero) ? null : new WeightCriteriaRelation(cPtr, false);
     return ret;
   }
+
+}
 
 }

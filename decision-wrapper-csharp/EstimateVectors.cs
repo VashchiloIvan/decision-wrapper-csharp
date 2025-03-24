@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class EstimateVectors : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IEnumerable<EstimateVector>
  {
@@ -343,5 +344,7 @@ public class EstimateVectors : global::System.IDisposable, global::System.Collec
     libdesPINVOKE.EstimateVectors_SetRange(swigCPtr, index, EstimateVectors.getCPtr(values));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
   }
+
+}
 
 }

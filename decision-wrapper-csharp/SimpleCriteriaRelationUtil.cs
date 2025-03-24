@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class SimpleCriteriaRelationUtil : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -74,5 +75,7 @@ public class SimpleCriteriaRelationUtil : global::System.IDisposable {
     SimpleRankingMethod ret = (cPtr == global::System.IntPtr.Zero) ? null : new SimpleRankingMethod(cPtr, false);
     return ret;
   }
+
+}
 
 }

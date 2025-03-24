@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class CriteriaAggregationMethod : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -82,5 +83,7 @@ public class CriteriaAggregationMethod : OneStepMethod {
     EstimateVector ret = new EstimateVector(libdesPINVOKE.CriteriaAggregationMethod_getBestEstimateVector(swigCPtr), true);
     return ret;
   }
+
+}
 
 }

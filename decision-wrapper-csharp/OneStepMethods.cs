@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class OneStepMethods : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.ICollection<OneStepMethod>
  {
@@ -468,5 +469,7 @@ public class OneStepMethods : global::System.IDisposable, global::System.Collect
 
   public OneStepMethods() : this(libdesPINVOKE.new_OneStepMethods(), true) {
   }
+
+}
 
 }

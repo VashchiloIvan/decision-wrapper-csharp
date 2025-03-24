@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace DecisionWrapperCsharp {
 
 public class TaskStep : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -93,5 +94,7 @@ public class TaskStep : global::System.IDisposable {
     string ret = libdesPINVOKE.TaskStep_AsString(swigCPtr);
     return ret;
   }
+
+}
 
 }
