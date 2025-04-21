@@ -1,5 +1,5 @@
 using System;
-using DecisionWrapperCsharp;
+using MultiCriteriaCsharpApi;
 using NUnit.Framework;
 
 [TestFixture]

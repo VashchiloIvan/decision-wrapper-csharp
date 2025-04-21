@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace DecisionWrapperCsharp {
+namespace MultiCriteriaCsharpApi {
 
 public class PrometheeAllVersions : OneStepMethod {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -61,6 +61,10 @@ public class PrometheeAllVersions : OneStepMethod {
   public void setCriterionTypes(CriterionTypes types) {
     libdesPINVOKE.PrometheeAllVersions_setCriterionTypes(swigCPtr, CriterionTypes.getCPtr(types));
     if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+  }
+
+  public void setScaleFactor(double scaleFactor) {
+    libdesPINVOKE.PrometheeAllVersions_setScaleFactor(swigCPtr, scaleFactor);
   }
 
   public override SolveStatus solve() {

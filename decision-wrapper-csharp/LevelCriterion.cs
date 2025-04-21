@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace DecisionWrapperCsharp {
+namespace MultiCriteriaCsharpApi {
 
 public class LevelCriterion : CriterionType {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

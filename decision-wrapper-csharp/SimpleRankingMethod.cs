@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace DecisionWrapperCsharp {
+namespace MultiCriteriaCsharpApi {
 
 public class SimpleRankingMethod : WeightCriteriaRelation {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

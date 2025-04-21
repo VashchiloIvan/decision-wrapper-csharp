@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace DecisionWrapperCsharp {
+namespace MultiCriteriaCsharpApi {
 
 public class WeightMap : global::System.IDisposable 
     , global::System.Collections.Generic.IDictionary<int, double>

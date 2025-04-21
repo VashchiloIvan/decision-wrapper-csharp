@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
-using DecisionWrapperCsharp;
+using MultiCriteriaCsharpApi;
 
 [TestFixture]
 public class AlternativeUnifierTests

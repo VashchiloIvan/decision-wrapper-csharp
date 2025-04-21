@@ -1,4 +1,4 @@
-using DecisionWrapperCsharp;
+using MultiCriteriaCsharpApi;
 using NUnit.Framework;
 
 public class MinMaxNormalizerTests

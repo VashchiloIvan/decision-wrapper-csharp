@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace DecisionWrapperCsharp {
+namespace MultiCriteriaCsharpApi {
 
 public class CriterionTypeList : global::System.IDisposable, global::System.Collections.IEnumerable, global::System.Collections.Generic.IList<CriterionType>
  {
