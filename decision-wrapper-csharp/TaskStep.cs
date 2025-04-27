@@ -72,6 +72,13 @@ public class TaskStep : global::System.IDisposable {
     return ret;
   }
 
+  public static TaskStep BoldTextType(string step) {
+    global::System.IntPtr cPtr = libdesPINVOKE.TaskStep_BoldTextType(step);
+    TaskStep ret = (cPtr == global::System.IntPtr.Zero) ? null : new TaskStep(cPtr, false);
+    if (libdesPINVOKE.SWIGPendingException.Pending) throw libdesPINVOKE.SWIGPendingException.Retrieve();
+    return ret;
+  }
+
   public static TaskStep TablePartType(string type, StringList row) {
     global::System.IntPtr cPtr = libdesPINVOKE.TaskStep_TablePartType(type, StringList.getCPtr(row));
     TaskStep ret = (cPtr == global::System.IntPtr.Zero) ? null : new TaskStep(cPtr, false);

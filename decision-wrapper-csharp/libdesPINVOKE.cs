@@ -1021,6 +1021,9 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_TaskStep_TextType")]
   public static extern global::System.IntPtr TaskStep_TextType(string jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_TaskStep_BoldTextType")]
+  public static extern global::System.IntPtr TaskStep_BoldTextType(string jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_TaskStep_TablePartType")]
   public static extern global::System.IntPtr TaskStep_TablePartType(string jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
@@ -1035,6 +1038,57 @@ class libdesPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_TaskStep")]
   public static extern void delete_TaskStep(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ConcordanceDisconcordanceThresholds__SWIG_0")]
+  public static extern global::System.IntPtr new_ConcordanceDisconcordanceThresholds__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ConcordanceDisconcordanceThresholds__SWIG_1")]
+  public static extern global::System.IntPtr new_ConcordanceDisconcordanceThresholds__SWIG_1(double jarg1, double jarg2, double jarg3, double jarg4, double jarg5);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_getStrongConcordanceThreshold")]
+  public static extern double ConcordanceDisconcordanceThresholds_getStrongConcordanceThreshold(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_getMeanConcordanceThreshold")]
+  public static extern double ConcordanceDisconcordanceThresholds_getMeanConcordanceThreshold(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_getWeakConcordanceThreshold")]
+  public static extern double ConcordanceDisconcordanceThresholds_getWeakConcordanceThreshold(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_getStrongDiscordanceThreshold")]
+  public static extern double ConcordanceDisconcordanceThresholds_getStrongDiscordanceThreshold(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_getWeakDiscordanceThreshold")]
+  public static extern double ConcordanceDisconcordanceThresholds_getWeakDiscordanceThreshold(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_isValid")]
+  public static extern bool ConcordanceDisconcordanceThresholds_isValid(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_toString")]
+  public static extern string ConcordanceDisconcordanceThresholds_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_ConcordanceDisconcordanceThresholds")]
+  public static extern void delete_ConcordanceDisconcordanceThresholds(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIMethod__SWIG_0")]
+  public static extern global::System.IntPtr new_ElectreIIMethod__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIMethod__SWIG_1")]
+  public static extern global::System.IntPtr new_ElectreIIMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_ElectreIIMethod")]
+  public static extern void delete_ElectreIIMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_solve")]
+  public static extern global::System.IntPtr ElectreIIMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_makeIteration")]
+  public static extern global::System.IntPtr ElectreIIMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_getIntermediateMethodData")]
+  public static extern global::System.IntPtr ElectreIIMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_getBestEstimateVector")]
+  public static extern global::System.IntPtr ElectreIIMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_Marks__SWIG_0")]
   public static extern global::System.IntPtr new_Marks__SWIG_0();
@@ -2181,6 +2235,12 @@ class libdesPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_MultiStepMultiCriteriaMethodSolver_SWIGUpcast")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_SWIGUpcast(global::System.IntPtr jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_SWIGUpcast")]
+  public static extern global::System.IntPtr ConcordanceDisconcordanceThresholds_SWIGUpcast(global::System.IntPtr jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_SWIGUpcast")]
+  public static extern global::System.IntPtr ElectreIIMethod_SWIGUpcast(global::System.IntPtr jarg1);
 }
 
 }
