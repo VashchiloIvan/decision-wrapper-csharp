@@ -961,6 +961,27 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_PrometheeAllVersions_getBestEstimateVector")]
   public static extern global::System.IntPtr PrometheeAllVersions_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIIMethod__SWIG_0")]
+  public static extern global::System.IntPtr new_ElectreIIIMethod__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIIMethod__SWIG_1")]
+  public static extern global::System.IntPtr new_ElectreIIIMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_ElectreIIIMethod")]
+  public static extern void delete_ElectreIIIMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIIMethod_solve")]
+  public static extern global::System.IntPtr ElectreIIIMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIIMethod_makeIteration")]
+  public static extern global::System.IntPtr ElectreIIIMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIIMethod_getIntermediateMethodData")]
+  public static extern global::System.IntPtr ElectreIIIMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIIMethod_getBestEstimateVector")]
+  public static extern global::System.IntPtr ElectreIIIMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_Solver")]
   public static extern global::System.IntPtr new_Solver();
 
@@ -1039,6 +1060,27 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_TaskStep")]
   public static extern void delete_TaskStep(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIMethod__SWIG_0")]
+  public static extern global::System.IntPtr new_ElectreIIMethod__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIMethod__SWIG_1")]
+  public static extern global::System.IntPtr new_ElectreIIMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_ElectreIIMethod")]
+  public static extern void delete_ElectreIIMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_solve")]
+  public static extern global::System.IntPtr ElectreIIMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_makeIteration")]
+  public static extern global::System.IntPtr ElectreIIMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_getIntermediateMethodData")]
+  public static extern global::System.IntPtr ElectreIIMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_getBestEstimateVector")]
+  public static extern global::System.IntPtr ElectreIIMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ConcordanceDisconcordanceThresholds__SWIG_0")]
   public static extern global::System.IntPtr new_ConcordanceDisconcordanceThresholds__SWIG_0();
 
@@ -1069,26 +1111,44 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_ConcordanceDisconcordanceThresholds")]
   public static extern void delete_ConcordanceDisconcordanceThresholds(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIMethod__SWIG_0")]
-  public static extern global::System.IntPtr new_ElectreIIMethod__SWIG_0();
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_IndifferencePreferenceVetoInfo")]
+  public static extern global::System.IntPtr new_IndifferencePreferenceVetoInfo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_ElectreIIMethod__SWIG_1")]
-  public static extern global::System.IntPtr new_ElectreIIMethod__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoInfo_getCriteriaMap")]
+  public static extern global::System.IntPtr IndifferencePreferenceVetoInfo_getCriteriaMap(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_ElectreIIMethod")]
-  public static extern void delete_ElectreIIMethod(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoInfo_isValid")]
+  public static extern bool IndifferencePreferenceVetoInfo_isValid(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_solve")]
-  public static extern global::System.IntPtr ElectreIIMethod_solve(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoInfo_toString")]
+  public static extern string IndifferencePreferenceVetoInfo_toString(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_makeIteration")]
-  public static extern global::System.IntPtr ElectreIIMethod_makeIteration(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_IndifferencePreferenceVetoInfo")]
+  public static extern void delete_IndifferencePreferenceVetoInfo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_getIntermediateMethodData")]
-  public static extern global::System.IntPtr ElectreIIMethod_getIntermediateMethodData(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVeto_indifference_set")]
+  public static extern void IndifferencePreferenceVeto_indifference_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_getBestEstimateVector")]
-  public static extern global::System.IntPtr ElectreIIMethod_getBestEstimateVector(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVeto_indifference_get")]
+  public static extern double IndifferencePreferenceVeto_indifference_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVeto_preference_set")]
+  public static extern void IndifferencePreferenceVeto_preference_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVeto_preference_get")]
+  public static extern double IndifferencePreferenceVeto_preference_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVeto_veto_set")]
+  public static extern void IndifferencePreferenceVeto_veto_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVeto_veto_get")]
+  public static extern double IndifferencePreferenceVeto_veto_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_IndifferencePreferenceVeto")]
+  public static extern global::System.IntPtr new_IndifferencePreferenceVeto(double jarg1, double jarg2, double jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_IndifferencePreferenceVeto")]
+  public static extern void delete_IndifferencePreferenceVeto(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_Marks__SWIG_0")]
   public static extern global::System.IntPtr new_Marks__SWIG_0();
@@ -2140,6 +2200,48 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_CriterionTypeList")]
   public static extern void delete_CriterionTypeList(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_IndifferencePreferenceVetoList__SWIG_0")]
+  public static extern global::System.IntPtr new_IndifferencePreferenceVetoList__SWIG_0();
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_new_IndifferencePreferenceVetoList__SWIG_1")]
+  public static extern global::System.IntPtr new_IndifferencePreferenceVetoList__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_size")]
+  public static extern uint IndifferencePreferenceVetoList_size(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_empty")]
+  public static extern bool IndifferencePreferenceVetoList_empty(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_Clear")]
+  public static extern void IndifferencePreferenceVetoList_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_getitem")]
+  public static extern global::System.IntPtr IndifferencePreferenceVetoList_getitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_setitem")]
+  public static extern void IndifferencePreferenceVetoList_setitem(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_ContainsKey")]
+  public static extern bool IndifferencePreferenceVetoList_ContainsKey(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_Add")]
+  public static extern void IndifferencePreferenceVetoList_Add(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_Remove")]
+  public static extern bool IndifferencePreferenceVetoList_Remove(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_create_iterator_begin")]
+  public static extern global::System.IntPtr IndifferencePreferenceVetoList_create_iterator_begin(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_get_next_key")]
+  public static extern int IndifferencePreferenceVetoList_get_next_key(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoList_destroy_iterator")]
+  public static extern void IndifferencePreferenceVetoList_destroy_iterator(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.IntPtr jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_delete_IndifferencePreferenceVetoList")]
+  public static extern void delete_IndifferencePreferenceVetoList(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_AlternativeUnifier_SWIGUpcast")]
   public static extern global::System.IntPtr AlternativeUnifier_SWIGUpcast(global::System.IntPtr jarg1);
 
@@ -2227,6 +2329,9 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_PrometheeAllVersions_SWIGUpcast")]
   public static extern global::System.IntPtr PrometheeAllVersions_SWIGUpcast(global::System.IntPtr jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIIMethod_SWIGUpcast")]
+  public static extern global::System.IntPtr ElectreIIIMethod_SWIGUpcast(global::System.IntPtr jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_MultiCriteriaMethodSolver_SWIGUpcast")]
   public static extern global::System.IntPtr MultiCriteriaMethodSolver_SWIGUpcast(global::System.IntPtr jarg1);
 
@@ -2236,11 +2341,14 @@ class libdesPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_MultiStepMultiCriteriaMethodSolver_SWIGUpcast")]
   public static extern global::System.IntPtr MultiStepMultiCriteriaMethodSolver_SWIGUpcast(global::System.IntPtr jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_SWIGUpcast")]
+  public static extern global::System.IntPtr ElectreIIMethod_SWIGUpcast(global::System.IntPtr jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ConcordanceDisconcordanceThresholds_SWIGUpcast")]
   public static extern global::System.IntPtr ConcordanceDisconcordanceThresholds_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_ElectreIIMethod_SWIGUpcast")]
-  public static extern global::System.IntPtr ElectreIIMethod_SWIGUpcast(global::System.IntPtr jarg1);
+  [global::System.Runtime.InteropServices.DllImport("libdes", EntryPoint="CSharp_MultiCriteriaCsharpApi_IndifferencePreferenceVetoInfo_SWIGUpcast")]
+  public static extern global::System.IntPtr IndifferencePreferenceVetoInfo_SWIGUpcast(global::System.IntPtr jarg1);
 }
 
 }
